@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\RentACarApp.Api.props" />
+</Project>
