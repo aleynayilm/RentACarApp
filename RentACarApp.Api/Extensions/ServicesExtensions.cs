@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using RentACarApp.Api.Repositories.Contracts;
-using RentACarApp.Api.Repositories.EFCore;
-using RentACarApp.Api.Services;
-using RentACarApp.Api.Services.Contracts;
+using Repositories.Contracts;
+using Repositories.EFCore;
+using Services;
+using Services.Contracts;
 
 namespace RentACarApp.Api.Extensions
 {

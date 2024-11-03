@@ -1,0 +1,12 @@
+C:\development\RentACarApp\Entities\bin\Debug\net8.0\Entities.deps.json
+C:\development\RentACarApp\Entities\bin\Debug\net8.0\Entities.dll
+C:\development\RentACarApp\Entities\bin\Debug\net8.0\Entities.pdb
+C:\development\RentACarApp\Entities\obj\Debug\net8.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\development\RentACarApp\Entities\obj\Debug\net8.0\Entities.AssemblyInfoInputs.cache
+C:\development\RentACarApp\Entities\obj\Debug\net8.0\Entities.AssemblyInfo.cs
+C:\development\RentACarApp\Entities\obj\Debug\net8.0\Entities.csproj.CoreCompileInputs.cache
+C:\development\RentACarApp\Entities\obj\Debug\net8.0\Entities.sourcelink.json
+C:\development\RentACarApp\Entities\obj\Debug\net8.0\Entities.dll
+C:\development\RentACarApp\Entities\obj\Debug\net8.0\refint\Entities.dll
+C:\development\RentACarApp\Entities\obj\Debug\net8.0\Entities.pdb
+C:\development\RentACarApp\Entities\obj\Debug\net8.0\ref\Entities.dll

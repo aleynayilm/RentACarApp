@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
-using RentACarApp.Api.Repositories.EFCore;
+using Repositories.EFCore;
 
 namespace RentACarApp.Api.ContextFactory
 {
@@ -12,7 +12,7 @@ namespace RentACarApp.Api.ContextFactory
             var Configuration = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsettings.json").Build();
 
             //DbContextOptionsBuilder
-            var builder = new DbContextOptionsBuilder<RepositoryContext>().UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
+            var builder = new DbContextOptionsBuilder<RepositoryContext>().UseSqlServer(Configuration.GetConnectionString("DefaultConnection"), prj => prj.MigrationsAssembly("RentACarApp.Api"));
             return new RepositoryContext(builder.Options);
         }
     }

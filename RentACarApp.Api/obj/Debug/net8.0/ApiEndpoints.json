@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "Presentation.Controllers.CarsController",
+    "Method": "GetAllCars",
+    "RelativePath": "api/cars",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Presentation.Controllers.CarsController",
+    "Method": "CreateOneCars",
+    "RelativePath": "api/cars",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "car",
+        "Type": "Entities.Models.Car",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Presentation.Controllers.CarsController",
+    "Method": "GetOneCar",
+    "RelativePath": "api/cars/{vinNumber}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vinNumber",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Presentation.Controllers.CarsController",
+    "Method": "UpdateOneCar",
+    "RelativePath": "api/cars/{vinNumber}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vinNumber",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "car",
+        "Type": "Entities.Models.Car",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Presentation.Controllers.CarsController",
+    "Method": "DeleteOneCar",
+    "RelativePath": "api/cars/{vinNumber}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vinNumber",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -142,3 +142,11 @@ C:\development\RentACarApp\RentACarApp.Api\bin\Debug\net8.0\runtimes\win\lib\net
 C:\development\RentACarApp\RentACarApp.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\development\RentACarApp\RentACarApp.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\development\RentACarApp\RentACarApp.Api\obj\Debug\net8.0\RentACarApp.Api.sourcelink.json
+C:\development\RentACarApp\RentACarApp.Api\bin\Debug\net8.0\Entities.dll
+C:\development\RentACarApp\RentACarApp.Api\bin\Debug\net8.0\Repositories.dll
+C:\development\RentACarApp\RentACarApp.Api\bin\Debug\net8.0\Entities.pdb
+C:\development\RentACarApp\RentACarApp.Api\bin\Debug\net8.0\Repositories.pdb
+C:\development\RentACarApp\RentACarApp.Api\bin\Debug\net8.0\Services.dll
+C:\development\RentACarApp\RentACarApp.Api\bin\Debug\net8.0\Services.pdb
+C:\development\RentACarApp\RentACarApp.Api\bin\Debug\net8.0\Presentation.dll
+C:\development\RentACarApp\RentACarApp.Api\bin\Debug\net8.0\Presentation.pdb
