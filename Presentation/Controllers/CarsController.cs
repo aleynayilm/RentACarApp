@@ -4,8 +4,8 @@ using Services.Contracts;
 
 namespace Presentation.Controllers
 {
+    [Route("api/cars")]
     [ApiController]
-    [Route ("api/cars")]
     public class CarsController : ControllerBase
     {
         private readonly IServiceManager _manager;
@@ -28,8 +28,9 @@ namespace Presentation.Controllers
                 throw new Exception(ex.Message);
             }
         }
-        [HttpGet("{vinNumber:string}")]
-        public IActionResult GetOneCar([FromRoute(Name = "vinNumber")] string vinNumber)
+
+        [HttpGet("{vinNumber}")]
+        public IActionResult GetOneCarByVinNumber([FromRoute(Name = "vinNumber")] string vinNumber)
         {
             try
             {
@@ -46,7 +47,7 @@ namespace Presentation.Controllers
 
         }
         [HttpPost]
-        public IActionResult CreateOneCars([FromBody] Car car)
+        public IActionResult CreateOneCar([FromBody] Car car)
         {
             try
             {
@@ -60,7 +61,7 @@ namespace Presentation.Controllers
                 return BadRequest(ex.Message);
             }
         }
-        [HttpPut("{vinNumber:string}")]
+        [HttpPut("{vinNumber}")]
         public IActionResult UpdateOneCar([FromRoute(Name = "vinNumber")] string vinNumber, [FromBody] Car car)
         {
             try
@@ -75,7 +76,7 @@ namespace Presentation.Controllers
                 throw new Exception(ex.Message);
             }
         }
-        [HttpDelete("{vinNumber:string}")]
+        [HttpDelete("{vinNumber}")]
         public IActionResult DeleteOneCar([FromRoute(Name = "vinNumber")] string vinNumber)
         {
             try

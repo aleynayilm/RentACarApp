@@ -7,9 +7,6 @@ namespace Repositories.EFCore;
 
 public partial class RepositoryContext : DbContext
 {
-    public RepositoryContext()
-    {
-    }
 
     public RepositoryContext(DbContextOptions<RepositoryContext> options)
         : base(options)
@@ -43,7 +40,6 @@ public partial class RepositoryContext : DbContext
     public virtual DbSet<User> Users { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
         => optionsBuilder.UseSqlServer("Data Source=DESKTOP-CPS5QP0;Initial Catalog=CarRentalDB;User ID=sa;Password=9984;TrustServerCertificate=True;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -55,8 +51,10 @@ public partial class RepositoryContext : DbContext
             entity.Property(e => e.Id)
                 .HasMaxLength(11)
                 .IsUnicode(false)
+                .IsFixedLength()
                 .HasColumnName("id");
             entity.Property(e => e.CreatedAt)
+                .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime")
                 .HasColumnName("created_at");
             entity.Property(e => e.Email)
@@ -74,6 +72,7 @@ public partial class RepositoryContext : DbContext
             entity.Property(e => e.Password)
                 .HasMaxLength(8)
                 .IsUnicode(false)
+                .IsFixedLength()
                 .HasColumnName("password");
             entity.Property(e => e.UpdatedAt)
                 .HasColumnType("datetime")
@@ -89,6 +88,7 @@ public partial class RepositoryContext : DbContext
             entity.Property(e => e.VinNumber)
                 .HasMaxLength(17)
                 .IsUnicode(false)
+                .IsFixedLength()
                 .HasColumnName("vin_number");
             entity.Property(e => e.AvailabilityStatus).HasColumnName("availability_status");
             entity.Property(e => e.Brand)
@@ -96,6 +96,7 @@ public partial class RepositoryContext : DbContext
                 .IsUnicode(false)
                 .HasColumnName("brand");
             entity.Property(e => e.CreatedAt)
+                .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime")
                 .HasColumnName("created_at");
             entity.Property(e => e.DealershipId).HasColumnName("dealership_id");
@@ -103,8 +104,9 @@ public partial class RepositoryContext : DbContext
             entity.Property(e => e.GearType).HasColumnName("gear_type");
             entity.Property(e => e.Kilometer).HasColumnName("kilometer");
             entity.Property(e => e.LicensePlate)
-                .HasMaxLength(8)
+                .HasMaxLength(7)
                 .IsUnicode(false)
+                .IsFixedLength()
                 .HasColumnName("license_plate");
             entity.Property(e => e.MinAge).HasColumnName("min_age");
             entity.Property(e => e.Model)
@@ -150,6 +152,7 @@ public partial class RepositoryContext : DbContext
             entity.Property(e => e.Phone)
                 .HasMaxLength(12)
                 .IsUnicode(false)
+                .IsFixedLength()
                 .HasColumnName("phone");
         });
 
@@ -161,10 +164,12 @@ public partial class RepositoryContext : DbContext
             entity.Property(e => e.AdminId)
                 .HasMaxLength(11)
                 .IsUnicode(false)
+                .IsFixedLength()
                 .HasColumnName("admin_id");
             entity.Property(e => e.CarId)
                 .HasMaxLength(17)
                 .IsUnicode(false)
+                .IsFixedLength()
                 .HasColumnName("car_id");
             entity.Property(e => e.DeleteTime)
                 .HasColumnType("datetime")
@@ -210,8 +215,10 @@ public partial class RepositoryContext : DbContext
             entity.Property(e => e.AdminId)
                 .HasMaxLength(11)
                 .IsUnicode(false)
+                .IsFixedLength()
                 .HasColumnName("admin_id");
             entity.Property(e => e.Date)
+                .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime")
                 .HasColumnName("date");
             entity.Property(e => e.Messaage)
@@ -221,6 +228,7 @@ public partial class RepositoryContext : DbContext
             entity.Property(e => e.UserId)
                 .HasMaxLength(11)
                 .IsUnicode(false)
+                .IsFixedLength()
                 .HasColumnName("user_id");
 
             entity.HasOne(d => d.Admin).WithMany(p => p.Logs)
@@ -241,9 +249,11 @@ public partial class RepositoryContext : DbContext
                 .HasColumnType("decimal(18, 3)")
                 .HasColumnName("amount");
             entity.Property(e => e.CreatedAt)
+                .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime")
                 .HasColumnName("created_at");
             entity.Property(e => e.PaymentDate)
+                .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime")
                 .HasColumnName("payment_date");
             entity.Property(e => e.PaymentMethod).HasColumnName("payment_method");
@@ -296,8 +306,10 @@ public partial class RepositoryContext : DbContext
             entity.Property(e => e.CarId)
                 .HasMaxLength(17)
                 .IsUnicode(false)
+                .IsFixedLength()
                 .HasColumnName("car_id");
             entity.Property(e => e.CreatedDate)
+                .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime")
                 .HasColumnName("created_date");
             entity.Property(e => e.EndDate)
@@ -316,6 +328,7 @@ public partial class RepositoryContext : DbContext
             entity.Property(e => e.UserId)
                 .HasMaxLength(11)
                 .IsUnicode(false)
+                .IsFixedLength()
                 .HasColumnName("user_id");
 
             entity.HasOne(d => d.Car).WithMany(p => p.Reservations)
@@ -340,7 +353,7 @@ public partial class RepositoryContext : DbContext
 
             entity.Property(e => e.Id).HasColumnName("id");
             entity.Property(e => e.Status)
-                .HasMaxLength(10)
+                .HasMaxLength(20)
                 .IsUnicode(false)
                 .HasColumnName("status");
         });
@@ -352,6 +365,7 @@ public partial class RepositoryContext : DbContext
             entity.Property(e => e.Id)
                 .HasMaxLength(11)
                 .IsUnicode(false)
+                .IsFixedLength()
                 .HasColumnName("id");
             entity.Property(e => e.Address)
                 .HasMaxLength(50)
@@ -361,6 +375,7 @@ public partial class RepositoryContext : DbContext
                 .HasColumnType("datetime")
                 .HasColumnName("birth_date");
             entity.Property(e => e.CreatedAt)
+                .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime")
                 .HasColumnName("created_at");
             entity.Property(e => e.Email)
@@ -371,7 +386,11 @@ public partial class RepositoryContext : DbContext
                 .HasMaxLength(20)
                 .IsUnicode(false)
                 .HasColumnName("lastname");
-            entity.Property(e => e.LicenseNumber).HasColumnName("license_number");
+            entity.Property(e => e.LicenseNumber)
+                .HasMaxLength(6)
+                .IsUnicode(false)
+                .IsFixedLength()
+                .HasColumnName("license_number");
             entity.Property(e => e.Name)
                 .HasMaxLength(20)
                 .IsUnicode(false)
@@ -379,10 +398,12 @@ public partial class RepositoryContext : DbContext
             entity.Property(e => e.Password)
                 .HasMaxLength(8)
                 .IsUnicode(false)
+                .IsFixedLength()
                 .HasColumnName("password");
             entity.Property(e => e.PhoneNumber)
                 .HasMaxLength(12)
                 .IsUnicode(false)
+                .IsFixedLength()
                 .HasColumnName("phone_number");
             entity.Property(e => e.UpdatedAt)
                 .HasColumnType("datetime")

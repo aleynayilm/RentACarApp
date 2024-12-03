@@ -4,7 +4,7 @@ namespace Repositories.Contracts
 {
     public interface ICarRepository:IRepositoryBase<Car>
     {
-        IQueryable<Car> GetAllCar(bool trackChanges);
+        IQueryable<Car> GetAllCars(bool trackChanges);
         Car GetOneCarByVinNumber(string vinNumber, bool trackChanges);
         void CreateOneCar(Car car);
         void UpdateOneCar(Car car);

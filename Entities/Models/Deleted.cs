@@ -9,7 +9,7 @@ public partial class Deleted
 
     public string CarId { get; set; } = null!;
 
-    public DateTime DeleteTime { get; set; }
+    public DateTime? DeleteTime { get; set; }
 
     public string? AdminId { get; set; }
 

@@ -27,7 +27,7 @@ public partial class Car
 
     public DateTime CreatedAt { get; set; }
 
-    public DateTime UpdatedAt { get; set; }
+    public DateTime? UpdatedAt { get; set; }
 
     public byte MinAge { get; set; }
 

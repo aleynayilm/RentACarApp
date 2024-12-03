@@ -30,14 +30,14 @@ namespace Services
             //check emtity
             var entity = _manager.CarR.GetOneCarByVinNumber(vinNumber, trackChanges);
             if (entity is null)
-                throw new Exception($"Book with vin number:{vinNumber} could not found");
+                throw new Exception($"Car with vin number:{vinNumber} could not found");
             _manager.CarR.DeleteOneCar(entity);
             _manager.Save();
         }
 
         public IEnumerable<Car> GetAllCars(bool trackChanges)
         {
-            return _manager.CarR.GetAllCar(trackChanges);
+            return _manager.CarR.GetAllCars(trackChanges);
         }
 
         public Car GetOneCarByVinNumber(string vinNumber, bool trackhanges)
@@ -50,7 +50,7 @@ namespace Services
             //check emtity
             var entity = _manager.CarR.GetOneCarByVinNumber(vinNumber, trackChanges);
             if (entity is null)
-                throw new Exception($"Book with vin number:{vinNumber} could not found");
+                throw new Exception($"Car with vin number:{vinNumber} could not found");
             //check params
             if (car is null)
                 throw new ArgumentNullException(nameof(car));
@@ -63,8 +63,6 @@ namespace Services
             entity.SeatCount = car.SeatCount;
             entity.PricePerDay = car.PricePerDay;
             entity.AvailabilityStatus = car.AvailabilityStatus;
-            entity.CreatedAt = car.CreatedAt;
-            entity.UpdatedAt = car.UpdatedAt;
             entity.MinAge = car.MinAge;
             entity.Kilometer = car.Kilometer;
             entity.Dealership = car.Dealership;

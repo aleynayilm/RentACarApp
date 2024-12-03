@@ -21,7 +21,7 @@ public partial class Reservation
 
     public DateTime CreatedDate { get; set; }
 
-    public DateTime UpdatedDate { get; set; }
+    public DateTime? UpdatedDate { get; set; }
 
     public virtual Car Car { get; set; } = null!;
 

@@ -1,4 +1,5 @@
 ﻿using Entities.Models;
+using Microsoft.EntityFrameworkCore;
 using Repositories.Contracts;
 using Repositories.EFCore;
 
@@ -13,7 +14,8 @@ namespace Repositories.EFCore
         public void CreateOneCar(Car car) => CreateOneCar(car);
         public void DeleteOneCar(Car car) => DeleteOneCar(car);
 
-        public IQueryable<Car> GetAllCar(bool trackChanges) => FindAll(trackChanges).OrderBy(c => c.VinNumber);
+        public IQueryable<Car> GetAllCars(bool trackChanges) => 
+            FindAll(trackChanges).OrderBy(c => c.VinNumber);
 
         public Car GetOneCarByVinNumber(string vinNumber, bool trackChanges) => FindByCondiition(c => c.VinNumber.Equals(vinNumber), trackChanges).SingleOrDefault();
 

@@ -17,7 +17,7 @@ public partial class Admin
 
     public DateTime CreatedAt { get; set; }
 
-    public DateTime UpdatedAt { get; set; }
+    public DateTime? UpdatedAt { get; set; }
 
     public virtual ICollection<Deleted> Deleteds { get; set; } = new List<Deleted>();
 
