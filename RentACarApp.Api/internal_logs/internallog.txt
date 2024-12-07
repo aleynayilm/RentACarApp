@@ -1,0 +1,578 @@
+2024-12-05 18:07:23.5783 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-05 18:07:23.6158 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-05 18:07:23.6247 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-05 18:07:23.6329 Info Configuration initialized.
+2024-12-05 19:01:05.2016 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-05 19:01:05.2119 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-05 19:01:05.2119 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-05 19:01:05.2263 Info Configuration initialized.
+2024-12-05 19:01:41.3200 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-05 19:01:41.3331 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-05 19:01:41.3417 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-05 19:01:41.3532 Info Configuration initialized.
+2024-12-05 19:05:01.2128 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-05 19:05:01.2231 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-05 19:05:01.2305 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-05 19:05:01.2305 Info Configuration initialized.
+2024-12-05 19:23:56.3685 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-05 19:23:56.3787 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-05 19:23:56.3858 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-05 19:23:56.3858 Info Configuration initialized.
+2024-12-05 19:50:11.6429 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-05 19:50:11.6529 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-05 19:50:11.6529 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-05 19:50:11.6653 Info Configuration initialized.
+2024-12-05 20:10:38.3616 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-05 20:10:38.3761 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-05 20:10:38.3864 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-05 20:10:38.3864 Info Configuration initialized.
+2024-12-05 20:18:59.6289 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-05 20:18:59.6378 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-05 20:18:59.6378 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-05 20:18:59.6502 Info Configuration initialized.
+2024-12-05 20:32:24.0274 Info AppDomain Shutting down. LogFactory closing...
+2024-12-05 20:32:24.0481 Info LogFactory has been closed.
+2024-12-05 20:32:52.3437 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-05 20:32:52.3525 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-05 20:32:52.3525 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-05 20:32:52.3525 Info Configuration initialized.
+2024-12-05 20:54:44.0262 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-05 20:54:44.0349 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-05 20:54:44.0409 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-05 20:54:44.0409 Info Configuration initialized.
+2024-12-05 20:56:02.2447 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-05 20:56:02.2640 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-05 20:56:02.2802 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-05 20:56:02.2928 Info Configuration initialized.
+2024-12-05 21:04:14.6089 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-05 21:04:14.6195 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-05 21:04:14.6195 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-05 21:04:14.6340 Info Configuration initialized.
+2024-12-05 21:05:15.0586 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-05 21:05:15.0676 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-05 21:05:15.0763 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-05 21:05:15.0882 Info Configuration initialized.
+2024-12-05 21:13:22.2232 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-05 21:13:22.2323 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-05 21:13:22.2323 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-05 21:13:22.2454 Info Configuration initialized.
+2024-12-05 21:16:05.1281 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-05 21:16:05.1465 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-05 21:16:05.1559 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-05 21:16:05.1692 Info Configuration initialized.
+2024-12-05 21:21:59.1933 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-05 21:21:59.2031 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-05 21:21:59.2031 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-05 21:21:59.2174 Info Configuration initialized.
+2024-12-05 21:25:46.5474 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-05 21:25:46.5571 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-05 21:25:46.5571 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-05 21:25:46.5721 Info Configuration initialized.
+2024-12-05 21:26:53.9840 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-05 21:26:53.9942 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-05 21:26:53.9942 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-05 21:26:54.0092 Info Configuration initialized.
+2024-12-05 21:29:52.0187 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-05 21:29:52.0276 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-05 21:29:52.0276 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-05 21:29:52.0408 Info Configuration initialized.
+2024-12-05 21:35:50.8515 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-05 21:35:50.8706 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-05 21:35:50.8706 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-05 21:35:50.8887 Info Configuration initialized.
+2024-12-05 21:38:20.9365 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-05 21:38:20.9457 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-05 21:38:20.9457 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-05 21:38:20.9663 Info Configuration initialized.
+2024-12-05 21:43:21.7862 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-05 21:43:21.7964 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-05 21:43:21.8072 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-05 21:43:21.8225 Info Configuration initialized.
+2024-12-05 21:44:35.3847 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-05 21:44:35.3938 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-05 21:44:35.4004 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-05 21:44:35.4004 Info Configuration initialized.
+2024-12-05 21:46:51.7639 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-05 21:46:51.7837 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-05 21:46:51.8004 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-05 21:46:51.8146 Info Configuration initialized.
+2024-12-06 00:01:29.6309 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 00:01:29.6399 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 00:01:29.6399 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 00:01:29.6540 Info Configuration initialized.
+2024-12-06 00:04:10.8119 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 00:04:10.8232 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 00:04:10.8232 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 00:04:10.8396 Info Configuration initialized.
+2024-12-06 00:08:45.1051 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 00:08:45.1153 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 00:08:45.1233 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 00:08:45.1233 Info Configuration initialized.
+2024-12-06 00:11:53.4015 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 00:11:53.4135 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 00:11:53.4207 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 00:11:53.4207 Info Configuration initialized.
+2024-12-06 00:21:17.9744 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 00:21:17.9863 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 00:21:17.9936 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 00:21:17.9936 Info Configuration initialized.
+2024-12-06 00:22:22.8664 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 00:22:22.8767 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 00:22:22.8841 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 00:22:22.8841 Info Configuration initialized.
+2024-12-06 00:23:57.0172 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 00:23:57.0264 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 00:23:57.0264 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 00:23:57.0404 Info Configuration initialized.
+2024-12-06 00:31:21.7365 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 00:31:21.7501 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 00:31:21.7577 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 00:31:21.7577 Info Configuration initialized.
+2024-12-06 00:46:40.5186 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 00:46:40.5278 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 00:46:40.5278 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 00:46:40.5459 Info Configuration initialized.
+2024-12-06 01:15:23.5168 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 01:15:23.5268 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 01:15:23.5268 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 01:15:23.5403 Info Configuration initialized.
+2024-12-06 01:22:11.1048 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 01:22:11.1144 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 01:22:11.1222 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 01:22:11.1222 Info Configuration initialized.
+2024-12-06 01:24:56.8507 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 01:24:56.8597 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 01:24:56.8673 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 01:24:56.8673 Info Configuration initialized.
+2024-12-06 01:34:43.1865 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 01:34:43.1965 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 01:34:43.1965 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 01:34:43.2125 Info Configuration initialized.
+2024-12-06 01:36:51.3298 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 01:36:51.3404 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 01:36:51.3404 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 01:36:51.3595 Info Configuration initialized.
+2024-12-06 02:20:50.2543 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 02:20:50.2639 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 02:20:50.2639 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 02:20:50.2763 Info Configuration initialized.
+2024-12-06 02:32:23.2926 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 02:32:23.3027 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 02:32:23.3096 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 02:32:23.3096 Info Configuration initialized.
+2024-12-06 02:37:37.1141 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 02:37:37.1269 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 02:37:37.1384 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 02:37:37.1491 Info Configuration initialized.
+2024-12-06 02:39:37.6381 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 02:39:37.6572 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 02:39:37.6800 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 02:39:37.6987 Info Configuration initialized.
+2024-12-06 11:36:12.7641 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 11:36:12.7898 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 11:36:12.7898 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 11:36:12.7898 Info Configuration initialized.
+2024-12-06 11:44:35.1973 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 11:44:35.2289 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 11:44:35.2289 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 11:44:35.2289 Info Configuration initialized.
+2024-12-06 11:57:13.3950 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 11:57:13.4058 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 11:57:13.4058 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 11:57:13.4231 Info Configuration initialized.
+2024-12-06 12:32:15.8166 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 12:32:15.8259 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 12:32:15.8259 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 12:32:15.8384 Info Configuration initialized.
+2024-12-06 12:40:00.5574 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 12:40:00.5695 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 12:40:00.5827 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 12:40:00.5992 Info Configuration initialized.
+2024-12-06 12:56:15.8428 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 12:56:15.8538 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 12:56:15.8538 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 12:56:15.8698 Info Configuration initialized.
+2024-12-06 13:05:31.4830 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 13:05:31.4940 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 13:05:31.4940 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 13:05:31.5086 Info Configuration initialized.
+2024-12-06 13:06:41.7490 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 13:06:41.7611 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 13:06:41.7611 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 13:06:41.7814 Info Configuration initialized.
+2024-12-06 13:10:21.5198 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 13:10:21.5306 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 13:10:21.5306 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 13:10:21.5465 Info Configuration initialized.
+2024-12-06 13:13:36.4817 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 13:13:36.4981 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 13:13:36.5078 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 13:13:36.5078 Info Configuration initialized.
+2024-12-06 13:14:02.2763 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 13:14:02.2868 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 13:14:02.2940 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 13:14:02.2940 Info Configuration initialized.
+2024-12-06 13:42:05.7617 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 13:42:05.7728 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 13:42:05.7728 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 13:42:05.7728 Info Configuration initialized.
+2024-12-06 13:42:12.5119 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 13:42:12.5221 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 13:42:12.5284 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 13:42:12.5389 Info Configuration initialized.
+2024-12-06 13:43:59.3045 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 13:43:59.3168 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 13:43:59.3253 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 13:43:59.3253 Info Configuration initialized.
+2024-12-06 14:01:58.7083 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 14:01:58.7199 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 14:01:58.7273 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 14:01:58.7273 Info Configuration initialized.
+2024-12-06 14:10:12.4969 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 14:10:12.5077 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 14:10:12.5077 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 14:10:12.5282 Info Configuration initialized.
+2024-12-06 14:39:02.6290 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 14:39:02.6416 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 14:39:02.6495 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 14:39:02.6495 Info Configuration initialized.
+2024-12-06 14:44:42.4039 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 14:44:42.4161 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 14:44:42.4161 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 14:44:42.4348 Info Configuration initialized.
+2024-12-06 15:27:05.6232 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 15:27:05.6323 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 15:27:05.6391 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 15:27:05.6391 Info Configuration initialized.
+2024-12-06 15:44:29.9022 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 15:44:29.9109 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 15:44:29.9178 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 15:44:29.9178 Info Configuration initialized.
+2024-12-06 16:28:06.5350 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 16:28:06.5494 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 16:28:06.5576 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 16:28:06.5576 Info Configuration initialized.
+2024-12-06 16:40:23.3144 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 16:40:23.3268 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 16:40:23.3353 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 16:40:23.3511 Info Configuration initialized.
+2024-12-06 16:44:51.6036 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 16:44:51.6188 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 16:44:51.6188 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 16:44:51.6452 Info Configuration initialized.
+2024-12-06 16:45:07.7584 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 16:45:07.7695 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 16:45:07.7766 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 16:45:07.7766 Info Configuration initialized.
+2024-12-06 16:51:32.6262 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 16:51:32.6378 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 16:51:32.6378 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 16:51:32.6567 Info Configuration initialized.
+2024-12-06 16:53:29.3869 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 16:53:29.4080 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 16:53:29.4195 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 16:53:29.4320 Info Configuration initialized.
+2024-12-06 17:00:43.3442 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 17:00:43.3550 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 17:00:43.3550 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 17:00:43.3725 Info Configuration initialized.
+2024-12-06 17:06:53.7362 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 17:06:53.7461 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 17:06:53.7461 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 17:06:53.7646 Info Configuration initialized.
+2024-12-06 17:09:37.2221 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 17:09:37.2317 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 17:09:37.2317 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 17:09:37.2447 Info Configuration initialized.
+2024-12-06 17:15:34.9645 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 17:15:34.9761 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 17:15:34.9830 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 17:15:34.9830 Info Configuration initialized.
+2024-12-06 17:22:01.2453 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 17:22:01.2544 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 17:22:01.2615 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 17:22:01.2615 Info Configuration initialized.
+2024-12-06 17:26:37.7353 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 17:26:37.7462 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 17:26:37.7462 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 17:26:37.7627 Info Configuration initialized.
+2024-12-06 18:45:30.3885 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 18:45:30.3980 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 18:45:30.3980 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 18:45:30.3980 Info Configuration initialized.
+2024-12-06 18:53:02.6216 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 18:53:02.6360 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 18:53:02.6360 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 18:53:02.6585 Info Configuration initialized.
+2024-12-06 18:56:09.9207 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 18:56:09.9464 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 18:56:09.9464 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 18:56:09.9464 Info Configuration initialized.
+2024-12-06 19:02:30.8413 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 19:02:30.8562 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 19:02:30.8680 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 19:02:30.8680 Info Configuration initialized.
+2024-12-06 19:03:14.0890 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 19:03:14.1009 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 19:03:14.1009 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 19:03:14.1171 Info Configuration initialized.
+2024-12-06 19:04:25.5458 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 19:04:25.5549 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 19:04:25.5549 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 19:04:25.5549 Info Configuration initialized.
+2024-12-06 19:04:51.3576 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 19:04:51.3672 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 19:04:51.3672 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 19:04:51.3672 Info Configuration initialized.
+2024-12-06 23:15:49.9715 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-06 23:15:49.9901 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-06 23:15:50.0019 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-06 23:15:50.0177 Info Configuration initialized.
+2024-12-07 00:53:28.6197 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 00:53:28.6583 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 00:53:28.6652 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 00:53:28.6652 Info Configuration initialized.
+2024-12-07 01:07:05.1231 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 01:07:05.1343 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 01:07:05.1343 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 01:07:05.1489 Info Configuration initialized.
+2024-12-07 01:42:23.9793 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 01:42:23.9897 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 01:42:23.9967 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 01:42:24.0070 Info Configuration initialized.
+2024-12-07 01:54:02.8387 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 01:54:02.8511 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 01:54:02.8511 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 01:54:02.8693 Info Configuration initialized.
+2024-12-07 01:58:58.6062 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 01:58:58.6166 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 01:58:58.6166 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 01:58:58.6166 Info Configuration initialized.
+2024-12-07 02:02:24.1431 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 02:02:24.1586 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 02:02:24.1672 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 02:02:24.1672 Info Configuration initialized.
+2024-12-07 02:06:50.3965 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 02:06:50.4103 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 02:06:50.4201 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 02:06:50.4313 Info Configuration initialized.
+2024-12-07 02:36:00.2298 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 02:36:00.2398 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 02:36:00.2473 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 02:36:00.2473 Info Configuration initialized.
+2024-12-07 02:59:31.8014 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 02:59:31.8108 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 02:59:31.8108 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 02:59:31.8245 Info Configuration initialized.
+2024-12-07 03:04:02.0848 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 03:04:02.0941 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 03:04:02.1004 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 03:04:02.1004 Info Configuration initialized.
+2024-12-07 03:10:12.1922 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 03:10:12.2030 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 03:10:12.2102 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 03:10:12.2102 Info Configuration initialized.
+2024-12-07 03:16:46.9362 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 03:16:46.9510 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 03:16:46.9651 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 03:16:46.9805 Info Configuration initialized.
+2024-12-07 03:18:19.8938 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 03:18:19.9201 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 03:18:19.9389 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 03:18:19.9619 Info Configuration initialized.
+2024-12-07 03:20:04.8343 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 03:20:04.8568 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 03:20:04.8753 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 03:20:04.8964 Info Configuration initialized.
+2024-12-07 03:21:09.0164 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 03:21:09.0358 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 03:21:09.0497 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 03:21:09.0667 Info Configuration initialized.
+2024-12-07 03:26:06.3708 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 03:26:06.3913 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 03:26:06.4005 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 03:26:06.4158 Info Configuration initialized.
+2024-12-07 03:30:32.4015 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 03:30:32.4245 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 03:30:32.4397 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 03:30:32.4575 Info Configuration initialized.
+2024-12-07 03:32:05.8921 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 03:32:05.9089 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 03:32:05.9206 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 03:32:05.9336 Info Configuration initialized.
+2024-12-07 03:33:23.4456 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 03:33:23.4942 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 03:33:23.5183 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 03:33:23.5459 Info Configuration initialized.
+2024-12-07 03:38:43.9788 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 03:38:44.0506 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 03:38:44.0954 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 03:38:44.1513 Info Configuration initialized.
+2024-12-07 03:47:09.6941 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 03:47:09.7534 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 03:47:09.7986 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 03:47:09.8602 Info Configuration initialized.
+2024-12-07 03:53:46.2183 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 03:53:46.2298 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 03:53:46.2298 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 03:53:46.2470 Info Configuration initialized.
+2024-12-07 03:58:03.2770 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 03:58:03.2870 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 03:58:03.2935 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 03:58:03.2935 Info Configuration initialized.
+2024-12-07 04:07:03.6943 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 04:07:03.7039 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 04:07:03.7099 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 04:07:03.7099 Info Configuration initialized.
+2024-12-07 04:07:52.6453 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 04:07:52.6542 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 04:07:52.6542 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 04:07:52.6669 Info Configuration initialized.
+2024-12-07 04:08:46.3586 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 04:08:46.3682 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 04:08:46.3682 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 04:08:46.3819 Info Configuration initialized.
+2024-12-07 04:10:39.8733 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 04:10:39.8876 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 04:10:39.8983 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 04:10:39.8983 Info Configuration initialized.
+2024-12-07 04:22:58.1481 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 04:22:58.1594 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 04:22:58.1677 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 04:22:58.1677 Info Configuration initialized.
+2024-12-07 04:28:23.7855 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 04:28:23.7979 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 04:28:23.8071 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 04:28:23.8071 Info Configuration initialized.
+2024-12-07 15:07:44.0048 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 15:07:44.0152 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 15:07:44.0152 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 15:07:44.0296 Info Configuration initialized.
+2024-12-07 15:27:59.2632 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 15:27:59.2726 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 15:27:59.2726 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 15:27:59.2726 Info Configuration initialized.
+2024-12-07 15:48:14.5106 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 15:48:14.5220 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 15:48:14.5307 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 15:48:14.5402 Info Configuration initialized.
+2024-12-07 16:00:46.2941 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 16:00:46.2941 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 16:00:46.3097 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 16:00:46.3097 Info Configuration initialized.
+2024-12-07 16:09:10.9731 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 16:09:10.9821 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 16:09:10.9821 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 16:09:10.9963 Info Configuration initialized.
+2024-12-07 16:15:25.7197 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 16:15:25.7287 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 16:15:25.7287 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 16:15:25.7287 Info Configuration initialized.
+2024-12-07 17:13:57.3381 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 17:13:57.3647 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 17:13:57.3702 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 17:13:57.3702 Info Configuration initialized.
+2024-12-07 17:16:58.3747 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 17:16:58.3864 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 17:16:58.3864 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 17:16:58.4033 Info Configuration initialized.
+2024-12-07 17:32:46.4815 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 17:32:46.4815 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 17:32:46.4959 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 17:32:46.4959 Info Configuration initialized.
+2024-12-07 17:37:36.9929 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 17:37:37.0022 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 17:37:37.0086 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 17:37:37.0086 Info Configuration initialized.
+2024-12-07 17:57:24.7917 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 17:57:24.8034 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 17:57:24.8097 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 17:57:24.8097 Info Configuration initialized.
+2024-12-07 17:59:43.2672 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 17:59:43.2785 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 17:59:43.2785 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 17:59:43.2946 Info Configuration initialized.
+2024-12-07 18:07:02.5025 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 18:07:02.5119 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 18:07:02.5119 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 18:07:02.5249 Info Configuration initialized.
+2024-12-07 18:09:54.1199 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 18:09:54.1381 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 18:09:54.1471 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 18:09:54.1471 Info Configuration initialized.
+2024-12-07 18:10:54.6209 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 18:10:54.6294 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 18:10:54.6358 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 18:10:54.6358 Info Configuration initialized.
+2024-12-07 18:17:31.3434 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 18:17:31.3526 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 18:17:31.3526 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 18:17:31.3664 Info Configuration initialized.
+2024-12-07 18:21:01.0846 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 18:21:01.0955 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 18:21:01.1030 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 18:21:01.1030 Info Configuration initialized.
+2024-12-07 18:21:48.2407 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 18:21:48.2514 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 18:21:48.2573 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 18:21:48.2573 Info Configuration initialized.
+2024-12-07 18:23:27.4396 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 18:23:27.4546 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 18:23:27.4683 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 18:23:27.4813 Info Configuration initialized.
+2024-12-07 18:24:25.0129 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 18:24:25.0129 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 18:24:25.0297 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 18:24:25.0297 Info Configuration initialized.
+2024-12-07 18:51:58.1370 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 18:51:58.1476 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 18:51:58.1550 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 18:51:58.1550 Info Configuration initialized.
+2024-12-07 18:54:01.0399 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 18:54:01.0493 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 18:54:01.0565 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 18:54:01.0565 Info Configuration initialized.
+2024-12-07 19:35:08.9323 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 19:35:08.9552 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 19:35:08.9614 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 19:35:08.9614 Info Configuration initialized.
+2024-12-07 19:41:48.4286 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 19:41:48.4384 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 19:41:48.4457 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 19:41:48.4457 Info Configuration initialized.
+2024-12-07 19:49:15.9164 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 19:49:15.9265 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 19:49:15.9324 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 19:49:15.9324 Info Configuration initialized.
+2024-12-07 19:50:55.1181 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 19:50:55.1276 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 19:50:55.1390 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 19:50:55.1513 Info Configuration initialized.
+2024-12-07 19:52:41.5772 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 19:52:41.5919 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 19:52:41.5919 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 19:52:41.6092 Info Configuration initialized.
+2024-12-07 19:58:00.6613 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 19:58:00.6710 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 19:58:00.6710 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 19:58:00.6835 Info Configuration initialized.
+2024-12-07 20:07:28.6480 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 20:07:28.6602 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 20:07:28.6685 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 20:07:28.6786 Info Configuration initialized.
+2024-12-07 20:09:34.2237 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 20:09:34.2373 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 20:09:34.2494 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 20:09:34.2690 Info Configuration initialized.
+2024-12-07 20:20:12.7997 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 20:20:12.8094 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 20:20:12.8094 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 20:20:12.8253 Info Configuration initialized.
+2024-12-07 20:21:05.4688 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 20:21:05.4778 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 20:21:05.4778 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 20:21:05.4920 Info Configuration initialized.
+2024-12-07 20:22:01.5676 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-07 20:22:01.5792 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-07 20:22:01.5855 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-07 20:22:01.5855 Info Configuration initialized.

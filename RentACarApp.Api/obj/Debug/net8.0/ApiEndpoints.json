@@ -1,5 +1,84 @@
 [
   {
+    "ContainingType": "Presentation.Controllers.AdminsController",
+    "Method": "GetAllAdmins",
+    "RelativePath": "api/admins",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Presentation.Controllers.AdminsController",
+    "Method": "CreateOneAdmin",
+    "RelativePath": "api/admins",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "admin",
+        "Type": "Entities.Models.Admin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Presentation.Controllers.AdminsController",
+    "Method": "GetOneAdminById",
+    "RelativePath": "api/admins/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Presentation.Controllers.AdminsController",
+    "Method": "UpdateOneAdmin",
+    "RelativePath": "api/admins/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "adminDto",
+        "Type": "Entities.DataTransferObjects.AdminDtoForUpdate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Presentation.Controllers.AdminsController",
+    "Method": "DeleteOneAdmin",
+    "RelativePath": "api/admins/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Presentation.Controllers.CarsController",
     "Method": "GetAllCars",
     "RelativePath": "api/cars",
@@ -18,8 +97,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "car",
-        "Type": "Entities.Models.Car",
+        "Name": "carDto",
+        "Type": "Entities.DataTransferObjects.CarDtoForCreate",
         "IsRequired": true
       }
     ],
@@ -55,8 +134,8 @@
         "IsRequired": true
       },
       {
-        "Name": "car",
-        "Type": "Entities.Models.Car",
+        "Name": "carDto",
+        "Type": "Entities.DataTransferObjects.CarDtoForUpdate",
         "IsRequired": true
       }
     ],
@@ -134,8 +213,8 @@
         "IsRequired": true
       },
       {
-        "Name": "dealership",
-        "Type": "Entities.Models.Dealership",
+        "Name": "dealershipDto",
+        "Type": "Entities.DataTransferObjects.DealershipDtoForUpdate",
         "IsRequired": true
       }
     ],
@@ -145,6 +224,85 @@
     "ContainingType": "Presentation.Controllers.DealershipsController",
     "Method": "DeleteOneDealership",
     "RelativePath": "api/dealerships/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Presentation.Controllers.DeletedsController",
+    "Method": "GetAllDeleteds",
+    "RelativePath": "api/deleteds",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Presentation.Controllers.DeletedsController",
+    "Method": "CreateOneDeleted",
+    "RelativePath": "api/deleteds",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deleted",
+        "Type": "Entities.Models.Deleted",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Presentation.Controllers.DeletedsController",
+    "Method": "GetOneDeletedById",
+    "RelativePath": "api/deleteds/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Presentation.Controllers.DeletedsController",
+    "Method": "UpdateOneDeleted",
+    "RelativePath": "api/deleteds/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "deleted",
+        "Type": "Entities.Models.Deleted",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Presentation.Controllers.DeletedsController",
+    "Method": "DeleteOneDeleted",
+    "RelativePath": "api/deleteds/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -213,8 +371,8 @@
         "IsRequired": true
       },
       {
-        "Name": "payment",
-        "Type": "Entities.Models.Payment",
+        "Name": "paymentDto",
+        "Type": "Entities.DataTransferObjects.PaymentDtoForUpdate",
         "IsRequired": true
       }
     ],
@@ -292,8 +450,8 @@
         "IsRequired": true
       },
       {
-        "Name": "reservation",
-        "Type": "Entities.Models.Reservation",
+        "Name": "reservationDto",
+        "Type": "Entities.DataTransferObjects.ReservationDtoForUpdate",
         "IsRequired": true
       }
     ],
@@ -371,8 +529,8 @@
         "IsRequired": true
       },
       {
-        "Name": "user",
-        "Type": "Entities.Models.User",
+        "Name": "userDto",
+        "Type": "Entities.DataTransferObjects.UserDtoForUpdate",
         "IsRequired": true
       }
     ],

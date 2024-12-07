@@ -150,3 +150,10 @@ C:\development\RentACarApp\RentACarApp.Api\bin\Debug\net8.0\Services.dll
 C:\development\RentACarApp\RentACarApp.Api\bin\Debug\net8.0\Services.pdb
 C:\development\RentACarApp\RentACarApp.Api\bin\Debug\net8.0\Presentation.dll
 C:\development\RentACarApp\RentACarApp.Api\bin\Debug\net8.0\Presentation.pdb
+C:\development\RentACarApp\RentACarApp.Api\bin\Debug\net8.0\nlog.config
+C:\development\RentACarApp\RentACarApp.Api\bin\Debug\net8.0\NLog.dll
+C:\development\RentACarApp\RentACarApp.Api\bin\Debug\net8.0\NLog.Extensions.Logging.dll
+C:\development\RentACarApp\RentACarApp.Api\bin\Debug\net8.0\Castle.Core.dll
+C:\development\RentACarApp\RentACarApp.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\development\RentACarApp\RentACarApp.Api\bin\Debug\net8.0\AutoMapper.dll
+C:\development\RentACarApp\RentACarApp.Api\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

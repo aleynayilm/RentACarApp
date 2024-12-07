@@ -1,4 +1,5 @@
-﻿using Entities.Models;
+﻿using Entities.DataTransferObjects;
+using Entities.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +13,7 @@ namespace Services.Contracts
         IEnumerable<Reservation> GetAllReservations(bool trackChanges);
         Reservation GetOneReservationById(int id, bool trackChanges);
         Reservation CreateOneReservation(Reservation reservation);
-        void UpdateOneReservation(int id,Reservation reservation, bool trackChanges);
+        void UpdateOneReservation(int id,ReservationDtoForUpdate reservationDto, bool trackChanges);
         void DeleteOneReservation(int id, bool trackChanges);
     }
 }

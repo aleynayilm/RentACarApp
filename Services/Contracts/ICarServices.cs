@@ -1,4 +1,5 @@
-﻿using Entities.Models;
+﻿using Entities.DataTransferObjects;
+using Entities.Models;
 
 namespace Services.Contracts
 {
@@ -6,8 +7,8 @@ namespace Services.Contracts
     {
         IEnumerable<Car> GetAllCars(bool trackChanges);
         Car GetOneCarByVinNumber(string vinNumber, bool trackhanges);
-        Car CreateOneCar(Car car);
-        void UpdateOneCar(string vinNumber, Car car, bool trackChanges);
+        Car CreateOneCar(CarDtoForCreate carDto);
+        void UpdateOneCar(string vinNumber, CarDtoForUpdate carDto, bool trackChanges);
         void DeleteOneCar(string vinNumber, bool trackChanges);
     }
 }

@@ -1,4 +1,6 @@
-﻿using Entities.Models;
+﻿using AutoMapper;
+using Entities.DataTransferObjects;
+using Entities.Models;
 using Repositories.Contracts;
 using Services.Contracts;
 using System;
@@ -14,9 +16,11 @@ namespace Services
     public class PaymentManager : IPaymentServices
     {
         private readonly IRepositoryManager _manager;
-        public PaymentManager(IRepositoryManager manager)
+        private readonly IMapper _mapper;
+        public PaymentManager(IRepositoryManager manager, IMapper mapper)
         {
             _manager = manager;
+            _mapper = mapper;
         }
 
         public Payment CreateOnePayment(Payment payment)
@@ -49,18 +53,23 @@ namespace Services
             return _manager.PaymentR.GetOnePaymentById(id, trackChanges);
         }
 
-        public void UpdateOnePayment(int id, Payment payment, bool trackChanges)
+        public void UpdateOnePayment(int id, PaymentDtoForUpdate paymentDto, bool trackChanges)
         {
-            var entity = _manager.PaymentR.GetOnePaymentById(id, trackChanges);
+            var entity = _manager.PaymentR.GetOnePaymentById(id, trackChanges: true);
             if (entity is null)
-                throw new Exception($"Payment with id:{id} could not found");
-            if (payment is null)
+            {
+                string message = $"The payment with id:{id} could not found";
+                //_logger.LogInfo(message);
+                throw new Exception(message);
+
+            }
+            if (paymentDto is null)
                 throw new ArgumentNullException(nameof(id));
-            entity.ReservationId=payment.ReservationId;
-            entity.Amount=payment.Amount;
-            entity.PaymentMethod=payment.PaymentMethod;
-            entity.PaymentDate=payment.PaymentDate;
-            entity.PaymentStatus=payment.PaymentStatus;
+            var existingCreatedAt = entity.CreatedAt;
+
+            _mapper.Map(paymentDto, entity);
+            //entity = _mapper.Map<Payment>(paymentDto);
+            entity.CreatedAt = existingCreatedAt;
             _manager.PaymentR.UpdateOnePayment(entity);
             _manager.Save();
         }

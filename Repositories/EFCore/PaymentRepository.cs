@@ -14,14 +14,14 @@ namespace Repositories.EFCore
         {
         }
 
-        public void CreateOnePayment(Payment payment) => CreateOnePayment(payment);
+        public void CreateOnePayment(Payment payment) => Create(payment);
 
-        public void DeleteOnePayment(Payment payment)=> DeleteOnePayment(payment);
+        public void DeleteOnePayment(Payment payment)=> Delete(payment);
 
         public IQueryable<Payment> GetAllPayments(bool trackChanges) => FindAll(trackChanges).OrderBy(c=>c.Id);
 
         public Payment GetOnePaymentById(int id, bool trackChanges) => FindByCondiition(c => c.Id.Equals(id), trackChanges).SingleOrDefault();
 
-        public void UpdateOnePayment(Payment payment)=> UpdateOnePayment(payment);
+        public void UpdateOnePayment(Payment payment)=> Update(payment);
     }
 }

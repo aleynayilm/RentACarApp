@@ -40,7 +40,8 @@ public partial class RepositoryContext : DbContext
     public virtual DbSet<User> Users { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseSqlServer("Data Source=DESKTOP-CPS5QP0;Initial Catalog=CarRentalDB;User ID=sa;Password=9984;TrustServerCertificate=True;");
+        => optionsBuilder
+        .UseSqlServer("Data Source=DESKTOP-CPS5QP0;Initial Catalog=CarRentalDB;User ID=sa;Password=9984;TrustServerCertificate=True;");/*.UseLazyLoadingProxies();*/
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

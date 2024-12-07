@@ -1,4 +1,5 @@
-﻿using Entities.Models;
+﻿using Entities.DataTransferObjects;
+using Entities.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +13,7 @@ namespace Services.Contracts
         IEnumerable<User> GetAllUsers(bool trackChanges);
         User GetOneUserById(string id, bool trackChanges);
         User CreateOneUser(User user);
-        void UpdateOneUser(string id, User user, bool trackChanges);
+        void UpdateOneUser(string id, UserDtoForUpdate userDto, bool trackChanges);
         void DeleteOneUser(string id, bool trackChanges);
     }
 }

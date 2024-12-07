@@ -7,5 +7,8 @@
         IDealershipServices DealershipServices { get; }
         IPaymentServices PaymentServices { get; }
         IUserServices UserServices { get; }
+        IAdminServices AdminServices { get; }
+        IDeletedServices DeletedServices { get; }
+        IFuelTypeServices FuelTypeServices { get; }
     }
 }

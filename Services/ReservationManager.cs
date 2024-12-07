@@ -1,4 +1,6 @@
-﻿using Entities.Models;
+﻿using AutoMapper;
+using Entities.DataTransferObjects;
+using Entities.Models;
 using Repositories.Contracts;
 using Services.Contracts;
 using System;
@@ -14,10 +16,12 @@ namespace Services
     public class ReservationManager : IReservationServices
     {
         private readonly IRepositoryManager _manager;
+        private readonly IMapper _mapper;
 
-        public ReservationManager(IRepositoryManager manager)
+        public ReservationManager(IRepositoryManager manager, IMapper mapper)
         {
             _manager = manager;
+            _mapper = mapper;
         }
 
         public Reservation CreateOneReservation(Reservation reservation)
@@ -47,20 +51,23 @@ namespace Services
             return _manager.ReservationR.GetOneReservationById(id, trackChanges);
         }
 
-        public void UpdateOneReservation(int id, Reservation reservation, bool trackChanges)
+        public void UpdateOneReservation(int id, ReservationDtoForUpdate reservationDto, bool trackChanges)
         {
-            var entity = _manager.ReservationR.GetOneReservationById(id, trackChanges);
-            if (entity is null) throw new Exception($"Reservation with id:{id} could not found");
-            if (reservation is null)
-                throw new ArgumentNullException(nameof(reservation));
-            entity.UserId = reservation.UserId;
-            entity.CarId = reservation.CarId;
-            entity.StartDate = reservation.StartDate;
-            entity.EndDate = reservation.EndDate;
-            entity.TotalPrice = reservation.TotalPrice;
-            entity.Status = reservation.Status;
-            entity.CreatedDate = reservation.CreatedDate;
-            entity.UpdatedDate = reservation.UpdatedDate;
+            var entity = _manager.ReservationR.GetOneReservationById(id, trackChanges: true);
+            if (entity is null)
+            {
+                string message = $"The reservation with id:{id} could not found";
+                //_logger.LogInfo(message);
+                throw new Exception(message);
+
+            }
+            if (reservationDto is null)
+                throw new ArgumentNullException(nameof(reservationDto));
+            var existingCreatedDate = entity.CreatedDate;
+
+            _mapper.Map(reservationDto, entity);
+            //entity = _mapper.Map<Reservation>(reservationDto);
+            entity.CreatedDate = existingCreatedDate;
             _manager.ReservationR.UpdateOneReservation(entity);
             _manager.Save();
         }

@@ -15,14 +15,14 @@ namespace Repositories.EFCore
         {
         }
 
-        public void CreateOneUser(User user) => CreateOneUser(user);
+        public void CreateOneUser(User user) => Create(user);
 
-        public void DeleteOneUser(User user)=> DeleteOneUser(user);
+        public void DeleteOneUser(User user)=> Delete(user);
 
         public IQueryable<User> GetAllUsers(bool trackChanges) => FindAll(trackChanges).OrderBy(c=>c.Id);
 
         public User GetOneUserById(string id, bool trackChanges) => FindByCondiition(c => c.Id.Equals(id), trackChanges).SingleOrDefault();
 
-        public void UpdateOneUser(User user)=> UpdateOneUser(user);
+        public void UpdateOneUser(User user)=> Update(user);
     }
 }

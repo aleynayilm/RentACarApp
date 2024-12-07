@@ -35,13 +35,14 @@ public partial class Car
 
     public int DealershipId { get; set; }
 
-    public virtual Dealership Dealership { get; set; } = null!;
+
+    public virtual Dealership Dealership { get; set; }= null!;
 
     public virtual ICollection<Deleted> Deleteds { get; set; } = new List<Deleted>();
 
-    public virtual FuelType FuelTypeNavigation { get; set; } = null!;
+    public virtual FuelType FuelTypeNavigation { get; set; }= null!;
 
-    public virtual GearType GearTypeNavigation { get; set; } = null!;
+    public virtual GearType GearTypeNavigation { get; set; }= null!;
 
     public virtual ICollection<Reservation> Reservations { get; set; } = new List<Reservation>();
 }

@@ -1,5 +1,7 @@
-﻿using Entities.Models;
+﻿using Entities.DataTransferObjects;
+using Entities.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Client;
 using Services.Contracts;
 using System;
@@ -61,17 +63,24 @@ namespace Presentation.Controllers
             }
         }
         [HttpPut("{id}")]
-        public IActionResult UpdateOnePayment([FromRoute(Name ="id")] int id,[FromBody] Payment payment) {
+        public IActionResult UpdateOnePayment([FromRoute(Name ="id")] int id,[FromBody] PaymentDtoForUpdate paymentDto) {
             try
             {
-                if (payment is null)
+                if (paymentDto is null)
                     return BadRequest(); 
-                _manager.PaymentServices.UpdateOnePayment(id, payment, true);
+                _manager.PaymentServices.UpdateOnePayment(id, paymentDto, true);
                 return NoContent(); //204
+            }
+            catch (DbUpdateException dbEx)
+            {
+                Console.WriteLine($"Veritabanı hatası: {dbEx.Message}");
+                return StatusCode(500, "Veritabanında bir hata oluştu.");
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.Message);
+                Console.WriteLine($"Genel hata: {ex.Message}");
+                Console.WriteLine($"Stack Trace: {ex.StackTrace}");
+                return StatusCode(500, $"Bir hata oluştu: {ex.Message}");
             }
         }
         [HttpDelete("{id}")]

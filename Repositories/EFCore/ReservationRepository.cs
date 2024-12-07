@@ -14,14 +14,14 @@ namespace Repositories.EFCore
         {
         }
 
-        public void CreateOneReservation(Reservation reservation) => CreateOneReservation(reservation);
+        public void CreateOneReservation(Reservation reservation) => Create(reservation);
 
-        public void DeleteOneReservation(Reservation reservation) => DeleteOneReservation(reservation);
+        public void DeleteOneReservation(Reservation reservation) => Delete(reservation);
 
         public IQueryable<Reservation> GetAllReservations(bool trackChanges) => FindAll(trackChanges).OrderBy(c => c.Id);
 
         public Reservation GetOneReservationById(int id, bool trackChanges) => FindByCondiition(c=>c.Id.Equals(id), trackChanges).SingleOrDefault();
 
-        public void UpdateOneReservation(Reservation reservation) => UpdateOneReservation(reservation);
+        public void UpdateOneReservation(Reservation reservation) => Update(reservation);
     }
 }

@@ -1,4 +1,6 @@
-﻿using Entities.Models;
+﻿using AutoMapper;
+using Entities.DataTransferObjects;
+using Entities.Models;
 using Repositories.Contracts;
 using Services.Contracts;
 using System;
@@ -14,9 +16,11 @@ namespace Services
     public class UserManager : IUserServices
     {
         private readonly IRepositoryManager _manager;
-        public UserManager(IRepositoryManager manager)
+        private readonly IMapper _mapper;
+        public UserManager(IRepositoryManager manager, IMapper mapper)
         {
             _manager = manager;
+            _mapper = mapper;
         }
 
         public User CreateOneUser(User user)
@@ -49,23 +53,25 @@ namespace Services
             return _manager.UserR.GetOneUserById(id, trackChanges);
         }
 
-        public void UpdateOneUser(string id, User user, bool trackChanges)
+        public void UpdateOneUser(string id, UserDtoForUpdate userDto, bool trackChanges)
         {
             //check emtity
-            var entity = _manager.UserR.GetOneUserById(id, trackChanges);
+            var entity = _manager.UserR.GetOneUserById(id, trackChanges: true);
             if (entity is null)
-                throw new Exception($"User with id:{id} could not found");
+            {
+                string message = $"The user with id:{id} could not found";
+                //_logger.LogInfo(message);
+                throw new Exception(message);
+
+            }
             //check params
-            if (user is null)
-                throw new ArgumentNullException(nameof(user));
-            entity.Name = user.Name;
-            entity.Lastname = user.Lastname;
-            entity.BirthDate = user.BirthDate;
-            entity.Email = user.Email;
-            entity.Password = user.Password;
-            entity.PhoneNumber = user.PhoneNumber;
-            entity.LicenseNumber = user.LicenseNumber;
-            entity.Address = user.Address;
+            if (userDto is null)
+                throw new ArgumentNullException(nameof(userDto));
+            var existingCreatedAt = entity.CreatedAt;
+
+            _mapper.Map(userDto, entity);
+            //entity = _mapper.Map<User>(userDto);
+            entity.CreatedAt = existingCreatedAt;
             _manager.UserR.UpdateOneUser(entity);
             _manager.Save();
         }

@@ -9,11 +9,17 @@ namespace RentACarApp.Api.ContextFactory
         public RepositoryContext CreateDbContext(string[] args)
         {
             //configurationBuilder
-            var Configuration = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsettings.json").Build();
+            var Configuration = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json")
+                .Build();
 
             //DbContextOptionsBuilder
-            var builder = new DbContextOptionsBuilder<RepositoryContext>().UseSqlServer(Configuration.GetConnectionString("DefaultConnection"), prj => prj.MigrationsAssembly("RentACarApp.Api"));
+            var builder = new DbContextOptionsBuilder<RepositoryContext>()
+                //.UseLazyLoadingProxies()
+                .UseSqlServer(Configuration.GetConnectionString("DefaultConnection"), prj => prj.MigrationsAssembly("RentACarApp.Api"));
             return new RepositoryContext(builder.Options);
+
         }
     }
 }

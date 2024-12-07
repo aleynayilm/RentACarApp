@@ -14,14 +14,14 @@ namespace Repositories.EFCore
         {
         }
 
-        public void CreateOneDealership(Dealership dealership) => CreateOneDealership(dealership);
+        public void CreateOneDealership(Dealership dealership) => Create(dealership);
 
-        public void DeleteOneDealership(Dealership dealership) => DeleteOneDealership(dealership);
+        public void DeleteOneDealership(Dealership dealership) => Delete(dealership);
 
         public IQueryable<Dealership> GetAllDealerships(bool trackChanges) => FindAll(trackChanges).OrderBy(c=>c.Id);
 
         public Dealership GetOneDealershipById(int id, bool trackChanges) => FindByCondiition(c=>c.Id.Equals(id),trackChanges).SingleOrDefault();
 
-        public void UpdateOneDealership(Dealership dealership) => UpdateOneDealership(dealership);
+        public void UpdateOneDealership(Dealership dealership) => Update(dealership);
     }
 }

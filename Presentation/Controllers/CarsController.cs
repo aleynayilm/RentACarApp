@@ -1,5 +1,7 @@
-﻿using Entities.Models;
+﻿using Entities.DataTransferObjects;
+using Entities.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Services.Contracts;
 
 namespace Presentation.Controllers
@@ -47,14 +49,14 @@ namespace Presentation.Controllers
 
         }
         [HttpPost]
-        public IActionResult CreateOneCar([FromBody] Car car)
+        public IActionResult CreateOneCar([FromBody] CarDtoForCreate carDto)
         {
             try
             {
-                if (car is null)
+                if (carDto is null)
                     return BadRequest();
-                _manager.CarServices.CreateOneCar(car);
-                return StatusCode(201, car);
+                _manager.CarServices.CreateOneCar(carDto);
+                return StatusCode(201, carDto);
             }
             catch (Exception ex)
             {
@@ -62,18 +64,25 @@ namespace Presentation.Controllers
             }
         }
         [HttpPut("{vinNumber}")]
-        public IActionResult UpdateOneCar([FromRoute(Name = "vinNumber")] string vinNumber, [FromBody] Car car)
+        public IActionResult UpdateOneCar([FromRoute(Name = "vinNumber")] string vinNumber, [FromBody] CarDtoForUpdate carDto)
         {
             try
             {
-                if (car is null)
+                if (carDto is null)
                     return BadRequest(); //400
-                _manager.CarServices.UpdateOneCar(vinNumber, car, true);
+                _manager.CarServices.UpdateOneCar(vinNumber, carDto, true);
                 return NoContent(); //204
+            }
+            catch (DbUpdateException dbEx)
+            {
+                Console.WriteLine($"Veritabanı hatası: {dbEx.Message}");
+                return StatusCode(500, "Veritabanında bir hata oluştu.");
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.Message);
+                Console.WriteLine($"Genel hata: {ex.Message}");
+                Console.WriteLine($"Stack Trace: {ex.StackTrace}");
+                return StatusCode(500, $"Bir hata oluştu: {ex.Message}");
             }
         }
         [HttpDelete("{vinNumber}")]

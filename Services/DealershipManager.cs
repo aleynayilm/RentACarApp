@@ -1,4 +1,6 @@
-﻿using Entities.Models;
+﻿using AutoMapper;
+using Entities.DataTransferObjects;
+using Entities.Models;
 using Repositories.Contracts;
 using Services.Contracts;
 using System;
@@ -14,9 +16,11 @@ namespace Services
     internal class DealershipManager : IDealershipServices
     {
         private readonly IRepositoryManager _manager;
-        public DealershipManager(IRepositoryManager manager)
+        private readonly IMapper _mapper;
+        public DealershipManager(IRepositoryManager manager, IMapper mapper)
         {
             _manager = manager;
+            _mapper = mapper;
         }
 
         public Dealership CreateOneDealership(Dealership dealership)
@@ -49,17 +53,21 @@ namespace Services
             return _manager.DealershipR.GetOneDealershipById(id, trackChanges);
         }
 
-        public void UpdateOneDealership(int id, Dealership dealership, bool trackChanges)
+        public void UpdateOneDealership(int id, DealershipDtoForUpdate dealershipDto, bool trackChanges)
         {
-            var entity = _manager.DealershipR.GetOneDealershipById(id, trackChanges);
+            var entity = _manager.DealershipR.GetOneDealershipById(id, trackChanges: true);
             if (entity is null)
-                throw new Exception($"Dealership with id:{id} could not found");
+            {
+                string message = $"The dealership with id:{id} could not found";
+                //_logger.LogInfo(message);
+                throw new Exception(message);
+
+            }
             //check params
-            if (dealership is null)
-                throw new ArgumentNullException(nameof(dealership));
-            entity.Name=dealership.Name;
-            entity.Address=dealership.Address;
-            entity.Phone=dealership.Phone;
+            if (dealershipDto is null)
+                throw new ArgumentNullException(nameof(dealershipDto));
+            _mapper.Map(dealershipDto, entity);
+            //entity = _mapper.Map<Dealership>(dealershipDto);
             _manager.DealershipR.UpdateOneDealership(entity);
             _manager.Save();
         }

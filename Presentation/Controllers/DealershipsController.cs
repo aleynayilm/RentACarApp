@@ -1,5 +1,7 @@
-﻿using Entities.Models;
+﻿using Entities.DataTransferObjects;
+using Entities.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Services.Contracts;
 using System;
 using System.Collections.Generic;
@@ -59,18 +61,26 @@ namespace Presentation.Controllers
             }
         }
         [HttpPut("{id}")]
-        public IActionResult UpdateOneDealership([FromRoute(Name = "id")] int id, [FromBody] Dealership dealership)
+        public IActionResult UpdateOneDealership([FromRoute(Name = "id")] int id, [FromBody] DealershipDtoForUpdate dealershipDto)
         {
             try
             {
-                if (dealership is null)
+                if (dealershipDto is null)
                     return BadRequest();
-                _manager.DealershipServices.UpdateOneDealership(id, dealership, true);
+                _manager.DealershipServices.UpdateOneDealership(id, dealershipDto, true);
                 return NoContent();
 
             }
-            catch (Exception ex) { 
-            throw new Exception(ex.Message);
+            catch (DbUpdateException dbEx)
+            {
+                Console.WriteLine($"Veritabanı hatası: {dbEx.Message}");
+                return StatusCode(500, "Veritabanında bir hata oluştu.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Genel hata: {ex.Message}");
+                Console.WriteLine($"Stack Trace: {ex.StackTrace}");
+                return StatusCode(500, $"Bir hata oluştu: {ex.Message}");
             }
         }
         [HttpDelete("{id}")]

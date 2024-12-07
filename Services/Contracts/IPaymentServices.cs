@@ -1,4 +1,5 @@
-﻿using Entities.Models;
+﻿using Entities.DataTransferObjects;
+using Entities.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +13,7 @@ namespace Services.Contracts
         IEnumerable<Payment> GetAllPayments(bool trackChanges);
         Payment GetOnePaymentById(int id, bool trackChanges);
         Payment CreateOnePayment(Payment payment);
-        void UpdateOnePayment(int id, Payment payment, bool tracjChanges);
+        void UpdateOnePayment(int id, PaymentDtoForUpdate paymentDto, bool trackChanges);
         void DeleteOnePayment(int id, bool trackChanges);
     }
 }

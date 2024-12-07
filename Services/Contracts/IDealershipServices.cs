@@ -1,4 +1,5 @@
-﻿using Entities.Models;
+﻿using Entities.DataTransferObjects;
+using Entities.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +13,7 @@ namespace Services.Contracts
         IEnumerable<Dealership> GetAllDealerships(bool trackChanges);
         Dealership GetOneDealershipById(int id, bool trackChanges);
         Dealership CreateOneDealership(Dealership dealership);
-        void UpdateOneDealership(int id, Dealership dealership, bool trackChanges);
+        void UpdateOneDealership(int id, DealershipDtoForUpdate dealershipDto, bool trackChanges);
         void DeleteOneDealership(int id, bool trackChanges);
     }
 }

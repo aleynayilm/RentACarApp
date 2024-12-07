@@ -11,14 +11,13 @@ namespace Repositories.EFCore
         {
         }
 
-        public void CreateOneCar(Car car) => CreateOneCar(car);
-        public void DeleteOneCar(Car car) => DeleteOneCar(car);
+        public void CreateOneCar(Car car) => Create(car);
+        public void DeleteOneCar(Car car) => Delete(car);
 
-        public IQueryable<Car> GetAllCars(bool trackChanges) => 
-            FindAll(trackChanges).OrderBy(c => c.VinNumber);
+        public IQueryable<Car> GetAllCars(bool trackChanges) => FindAll(trackChanges).OrderBy(c => c.VinNumber);
 
         public Car GetOneCarByVinNumber(string vinNumber, bool trackChanges) => FindByCondiition(c => c.VinNumber.Equals(vinNumber), trackChanges).SingleOrDefault();
 
-        public void UpdateOneCar(Car car) =>UpdateOneCar(car);
+        public void UpdateOneCar(Car car) => Update(car);
     }
 }
