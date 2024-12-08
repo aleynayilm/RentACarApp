@@ -11,11 +11,17 @@ namespace Repositories.EFCore
 {
     public class FuelTypeRepository : RepositoryBase<FuelType>, IFuelTypeRepository
     {
+
         public FuelTypeRepository(RepositoryContext context) : base(context)
         {
         }
 
         public IQueryable<FuelType> GetAllFuelTypes(bool trackChanges) => FindAll(trackChanges).OrderBy(c => c.Id);
+
+        public FuelType GetFuelTypeById(int id)
+        {
+            return _context.FuelTypes.FirstOrDefault(ft => ft.Id == id);
+        }
 
         public FuelType GetOneFuelTypeById(int id, bool trackChanges) => FindByCondiition(c => c.Id.Equals(id), trackChanges).SingleOrDefault();
     }

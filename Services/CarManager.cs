@@ -2,6 +2,7 @@
 using Entities.DataTransferObjects;
 using Entities.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.VisualBasic.FileIO;
 using Repositories.Contracts;
 using Services.Contracts;
 using System.Diagnostics;
@@ -21,28 +22,33 @@ namespace Services
             _logger = logger;
             _mapper = mapper;
         }
-
         public Car CreateOneCar(CarDtoForCreate carDto)
         {
-            //var fuelType = _manager.FuelTypeR.GetOneFuelTypeById(carDto.FuelType, false);
-            //if (fuelType == null) throw new Exception("FuelType could not be found.");
-
-            //var gearType = _manager.GearTypeR.GetOneGearTypeById(carDto.GearType, false);
-            //if (gearType == null) throw new Exception("GearType could not be found.");
-
-            //var dealership = _manager.DealershipR.GetOneDealershipById(carDto.DealershipId, false);
-            //if (dealership == null) throw new Exception("Dealership could not be found.");
+            var fuelType = _manager.FuelTypeR.GetFuelTypeById(carDto.FuelType);
+            if (fuelType == null)
+            {
+                throw new Exception($"FuelType '{carDto.FuelType}' not found!");
+            }
+            var gearType = _manager.GearTypeR.GetGearTypeById(carDto.GearType);
+            if (gearType == null)
+            {
+                throw new Exception($"GearType '{carDto.GearType}' not found!");
+            }
+            var dealership = _manager.DealershipR.GetDealershipById(carDto.DealershipId);
+            if (dealership == null)
+            {
+                throw new Exception($"Dealership '{carDto.DealershipId}' not found!");
+            }
 
             var car = _mapper.Map<Car>(carDto);
 
-            //car.FuelTypeNavigation = fuelType;
-            //car.GearTypeNavigation = gearType;
-            //car.Dealership = dealership;
-            car.CreatedAt = DateTime.UtcNow;
-            //car.UpdatedAt = null;
+            car.FuelType = fuelType.Id;
+            car.GearType = gearType.Id;
+            car.DealershipId = dealership.Id;
             try
             {
                 _logger.LogInfo("Creating a new car in the database...");
+
                 _manager.CarR.CreateOneCar(car);
 
                 _logger.LogInfo("Saving changes to the database...");

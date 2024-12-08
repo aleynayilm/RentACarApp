@@ -20,6 +20,11 @@ namespace Repositories.EFCore
 
         public IQueryable<Dealership> GetAllDealerships(bool trackChanges) => FindAll(trackChanges).OrderBy(c=>c.Id);
 
+        public Dealership GetDealershipById(int id)
+        {
+            return _context.Dealerships.FirstOrDefault(ft => ft.Id == id);
+        }
+
         public Dealership GetOneDealershipById(int id, bool trackChanges) => FindByCondiition(c=>c.Id.Equals(id),trackChanges).SingleOrDefault();
 
         public void UpdateOneDealership(Dealership dealership) => Update(dealership);

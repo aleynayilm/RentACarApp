@@ -11,5 +11,6 @@ namespace Repositories.Contracts
     {
         IQueryable<FuelType> GetAllFuelTypes(bool trackChanges);
         FuelType GetOneFuelTypeById(int id, bool trackChanges);
+        FuelType GetFuelTypeById(int id);
     }
 }

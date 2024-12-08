@@ -11,5 +11,6 @@ namespace Repositories.Contracts
     {
         IQueryable<GearType> GetAllGearTypes(bool trackChanges);
         GearType GetOneGearTypeById(int id, bool trackChanges);
+        GearType GetGearTypeById(int id);
     }
 }

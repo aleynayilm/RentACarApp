@@ -23,6 +23,11 @@ namespace Repositories.EFCore
 
         public User GetOneUserById(string id, bool trackChanges) => FindByCondiition(c => c.Id.Equals(id), trackChanges).SingleOrDefault();
 
+        public User GetUser(string id)
+        {
+            return _context.Users.FirstOrDefault(ft => ft.Id == id);
+        }
+
         public void UpdateOneUser(User user)=> Update(user);
     }
 }

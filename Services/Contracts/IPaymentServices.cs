@@ -12,7 +12,7 @@ namespace Services.Contracts
     {
         IEnumerable<Payment> GetAllPayments(bool trackChanges);
         Payment GetOnePaymentById(int id, bool trackChanges);
-        Payment CreateOnePayment(Payment payment);
+        Payment CreateOnePayment(PaymentDtoForCreate paymentDto);
         void UpdateOnePayment(int id, PaymentDtoForUpdate paymentDto, bool trackChanges);
         void DeleteOnePayment(int id, bool trackChanges);
     }

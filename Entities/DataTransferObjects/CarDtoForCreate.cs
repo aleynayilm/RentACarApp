@@ -35,8 +35,5 @@ namespace Entities.DataTransferObjects
         public int Kilometer { get; init; }
 
         public int DealershipId { get; init; }
-
-        public DateTime? CreatedAt { get; init; }
-        public DateTime? UpdatedAt { get; init; }
     }
 }

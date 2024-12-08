@@ -23,12 +23,13 @@ namespace Services
             _mapper = mapper;
         }
 
-        public Dealership CreateOneDealership(Dealership dealership)
+        public Dealership CreateOneDealership(DealershipDtoForCreate dealershipDto)
         {
-            if (dealership == null)
+            if (dealershipDto == null)
             {
-                throw new ArgumentNullException(nameof(dealership));
+                throw new ArgumentNullException(nameof(dealershipDto));
             }
+            var dealership = _mapper.Map<Dealership>(dealershipDto);
             _manager.DealershipR.CreateOneDealership(dealership);
             _manager.Save();
             return dealership;

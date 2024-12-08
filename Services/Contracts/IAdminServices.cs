@@ -12,7 +12,7 @@ namespace Services.Contracts
     {
         IEnumerable<Admin> GetAllAdmins(bool trackChanges);
         Admin GetOneAdminById(string id, bool trackChanges);
-        Admin CreateOneAdmin(Admin admin);
+        Admin CreateOneAdmin(AdminDtoForCreate adminDto);
         void UpdateOneAdmin(string id, AdminDtoForUpdate adminDto, bool trackChanges);
         void DeleteOneAdmin(string id, bool trackChanges);
     }

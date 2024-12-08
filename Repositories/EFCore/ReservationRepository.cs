@@ -20,6 +20,11 @@ namespace Repositories.EFCore
 
         public IQueryable<Reservation> GetAllReservations(bool trackChanges) => FindAll(trackChanges).OrderBy(c => c.Id);
 
+        public Reservation GetOneReservation(int id)
+        {
+            return _context.Reservations.FirstOrDefault(ft => ft.Id == id);
+        }
+
         public Reservation GetOneReservationById(int id, bool trackChanges) => FindByCondiition(c=>c.Id.Equals(id), trackChanges).SingleOrDefault();
 
         public void UpdateOneReservation(Reservation reservation) => Update(reservation);

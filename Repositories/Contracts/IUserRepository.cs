@@ -14,5 +14,6 @@ namespace Repositories.Contracts
         void CreateOneUser(User user);
         void UpdateOneUser(User user);
         void DeleteOneUser(User user);
+        User GetUser(string id);
     }
 }

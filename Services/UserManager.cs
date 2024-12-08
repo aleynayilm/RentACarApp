@@ -23,12 +23,13 @@ namespace Services
             _mapper = mapper;
         }
 
-        public User CreateOneUser(User user)
+        public User CreateOneUser(UserDtoForCreate userDto)
         {
-            if (user == null)
+            if (userDto == null)
             {
-                throw new ArgumentNullException(nameof(user));
+                throw new ArgumentNullException(nameof(userDto));
             }
+            var user = _mapper.Map<User>(userDto);
             _manager.UserR.CreateOneUser(user);
             _manager.Save();
             return user;

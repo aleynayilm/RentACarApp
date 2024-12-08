@@ -14,5 +14,6 @@ namespace Repositories.Contracts
         void CreateOneDealership(Dealership dealership);
         void UpdateOneDealership(Dealership dealership);
         void DeleteOneDealership(Dealership dealership);
+        Dealership GetDealershipById(int id);
     }
 }

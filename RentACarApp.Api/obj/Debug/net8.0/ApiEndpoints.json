@@ -18,8 +18,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "admin",
-        "Type": "Entities.Models.Admin",
+        "Name": "adminDto",
+        "Type": "Entities.DataTransferObjects.AdminDtoForCreate",
         "IsRequired": true
       }
     ],
@@ -176,8 +176,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "dealership",
-        "Type": "Entities.Models.Dealership",
+        "Name": "dealershipDto",
+        "Type": "Entities.DataTransferObjects.DealershipDtoForCreate",
         "IsRequired": true
       }
     ],
@@ -334,8 +334,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "payment",
-        "Type": "Entities.Models.Payment",
+        "Name": "paymentDto",
+        "Type": "Entities.DataTransferObjects.PaymentDtoForCreate",
         "IsRequired": true
       }
     ],
@@ -413,8 +413,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "reservation",
-        "Type": "Entities.Models.Reservation",
+        "Name": "reservationDto",
+        "Type": "Entities.DataTransferObjects.ReservationsDtoForCreate",
         "IsRequired": true
       }
     ],
@@ -492,8 +492,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "user",
-        "Type": "Entities.Models.User",
+        "Name": "userDto",
+        "Type": "Entities.DataTransferObjects.UserDtoForCreate",
         "IsRequired": true
       }
     ],

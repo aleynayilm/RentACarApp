@@ -16,6 +16,9 @@ namespace Repositories.EFCore
         private readonly Lazy<IDeletedRepository> _deletedRepository;
         private readonly Lazy<IFuelTypeRepository> _fuelTypeRepository;
         private readonly Lazy<IGearTypeReppository> _gearTypeRepository;
+        private readonly Lazy<IPaymentStatusRepository> _paymentStatusRepository;
+        private readonly Lazy<IPaymentMethodRepository> _paymentMethodRepoitory;
+        private readonly Lazy<IResrvationStatusRepository> _resrvationStatusRepository;
         public RepositoryManager(RepositoryContext context)
         {
             _context = context;
@@ -28,6 +31,9 @@ namespace Repositories.EFCore
             _deletedRepository = new Lazy<IDeletedRepository>(() => new DeletedRepository(_context));
             _fuelTypeRepository= new Lazy<IFuelTypeRepository>(() => new FuelTypeRepository(_context));
             _gearTypeRepository= new Lazy<IGearTypeReppository>(() => new GearTypeRepository(_context));
+            _paymentStatusRepository= new Lazy<IPaymentStatusRepository>(() => new PaymentStatusRepository(_context));
+            _paymentMethodRepoitory = new Lazy<IPaymentMethodRepository>(()=>new PaymentMethodRepository(_context));
+            _resrvationStatusRepository= new Lazy<IResrvationStatusRepository>(() => new ReservationStatusRepository(_context));
         }
 
         public ICarRepository CarR => _carRepository.Value;
@@ -47,6 +53,12 @@ namespace Repositories.EFCore
         public IFuelTypeRepository FuelTypeR => _fuelTypeRepository.Value;
 
         public IGearTypeReppository GearTypeR => _gearTypeRepository.Value;
+
+        public IPaymentStatusRepository PaymentStatusR => _paymentStatusRepository.Value;
+
+        public IPaymentMethodRepository PaymentMethodR => _paymentMethodRepoitory.Value;
+
+        public IResrvationStatusRepository ResrvationStatusR => _resrvationStatusRepository.Value;
 
         public void Save()
         {

@@ -14,6 +14,7 @@ namespace Repositories.Contracts
         void CreateOneReservation (Reservation reservation);
         void UpdateOneReservation (Reservation reservation);
         void DeleteOneReservation (Reservation reservation);
+        Reservation GetOneReservation(int id);
 
     }
 }

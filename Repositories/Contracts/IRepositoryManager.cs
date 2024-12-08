@@ -11,6 +11,9 @@
         IDeletedRepository DeletedR { get; }
         IFuelTypeRepository FuelTypeR { get; }
         IGearTypeReppository GearTypeR { get; }
+        IPaymentStatusRepository PaymentStatusR { get; }
+        IPaymentMethodRepository PaymentMethodR { get; }
+        IResrvationStatusRepository ResrvationStatusR { get; }
         void Save();
     }
 }

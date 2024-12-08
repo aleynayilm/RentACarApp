@@ -16,6 +16,11 @@ namespace Repositories.EFCore
 
         public IQueryable<Car> GetAllCars(bool trackChanges) => FindAll(trackChanges).OrderBy(c => c.VinNumber);
 
+        public Car GetCar(string vinNumber)
+        {
+            return _context.Cars.FirstOrDefault(ft => ft.VinNumber == vinNumber);
+        }
+
         public Car GetOneCarByVinNumber(string vinNumber, bool trackChanges) => FindByCondiition(c => c.VinNumber.Equals(vinNumber), trackChanges).SingleOrDefault();
 
         public void UpdateOneCar(Car car) => Update(car);

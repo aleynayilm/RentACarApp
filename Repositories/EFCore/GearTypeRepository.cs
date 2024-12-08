@@ -16,6 +16,11 @@ namespace Repositories.EFCore
 
         public IQueryable<GearType> GetAllGearTypes(bool trackChanges) => FindAll(trackChanges).OrderBy(c => c.Id);
 
+        public GearType GetGearTypeById(int id)
+        {
+            return _context.GearTypes.FirstOrDefault(ft => ft.Id == id);
+        }
+
         public GearType GetOneGearTypeById(int id, bool trackChanges) => FindByCondiition(c => c.Id.Equals(id), trackChanges).SingleOrDefault();
     }
 }

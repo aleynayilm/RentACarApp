@@ -50,13 +50,13 @@ namespace Presentation.Controllers
             }
         }
         [HttpPost]
-        public IActionResult CreateOneUser([FromBody] User user) {
+        public IActionResult CreateOneUser([FromBody] UserDtoForCreate userDto) {
             try
             {
-                if (user is null)
+                if (userDto is null)
                     return BadRequest();
-                _manager.UserServices.CreateOneUser(user);
-                return StatusCode(201, user);
+                _manager.UserServices.CreateOneUser(userDto);
+                return StatusCode(201, userDto);
             }
             catch (Exception ex)
             {

@@ -12,7 +12,7 @@ namespace Services.Contracts
     {
         IEnumerable<Dealership> GetAllDealerships(bool trackChanges);
         Dealership GetOneDealershipById(int id, bool trackChanges);
-        Dealership CreateOneDealership(Dealership dealership);
+        Dealership CreateOneDealership(DealershipDtoForCreate dealershipDto);
         void UpdateOneDealership(int id, DealershipDtoForUpdate dealershipDto, bool trackChanges);
         void DeleteOneDealership(int id, bool trackChanges);
     }

@@ -9,5 +9,6 @@ namespace Repositories.Contracts
         void CreateOneCar(Car car);
         void UpdateOneCar(Car car);
         void DeleteOneCar(Car car);
+        Car GetCar(string vinNumber);
     }
 }

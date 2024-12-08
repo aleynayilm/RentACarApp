@@ -12,7 +12,7 @@ namespace Services.Contracts
     {
         IEnumerable<Reservation> GetAllReservations(bool trackChanges);
         Reservation GetOneReservationById(int id, bool trackChanges);
-        Reservation CreateOneReservation(Reservation reservation);
+        Reservation CreateOneReservation(ReservationsDtoForCreate reservationDto);
         void UpdateOneReservation(int id,ReservationDtoForUpdate reservationDto, bool trackChanges);
         void DeleteOneReservation(int id, bool trackChanges);
     }

@@ -48,13 +48,13 @@ namespace Presentation.Controllers
             }
         }
         [HttpPost]
-        public IActionResult CreateOneDealership([FromBody] Dealership dealership) {
+        public IActionResult CreateOneDealership([FromBody] DealershipDtoForCreate dealershipDto) {
             try
             {
-                if (dealership is null)
+                if (dealershipDto is null)
                     return BadRequest();
-                _manager.DealershipServices.CreateOneDealership(dealership);
-                return StatusCode(201, dealership);
+                _manager.DealershipServices.CreateOneDealership(dealershipDto);
+                return StatusCode(201, dealershipDto);
             }
             catch (Exception ex){ 
             return BadRequest(ex.Message);

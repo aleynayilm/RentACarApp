@@ -47,13 +47,13 @@ namespace Presentation.Controllers
             }
         }
         [HttpPost]
-        public IActionResult CreateOneReservation([FromBody] Reservation reservation) {
+        public IActionResult CreateOneReservation([FromBody] ReservationsDtoForCreate reservationDto) {
             try
             {
-                if (reservation is null)
+                if (reservationDto is null)
                     return BadRequest();
-                _manager.ReservationServices.CreateOneReservation(reservation);
-                return StatusCode(200, reservation);
+                _manager.ReservationServices.CreateOneReservation(reservationDto);
+                return StatusCode(200, reservationDto);
             }
             catch (Exception ex) {
             return BadRequest(ex.Message);

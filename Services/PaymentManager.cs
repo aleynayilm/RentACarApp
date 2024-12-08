@@ -23,8 +23,29 @@ namespace Services
             _mapper = mapper;
         }
 
-        public Payment CreateOnePayment(Payment payment)
+        public Payment CreateOnePayment(PaymentDtoForCreate paymentDto)
         {
+            var paymentStatus = _manager.PaymentStatusR.GetPaymentStatus(paymentDto.PaymentStatus);
+            if (paymentStatus == null)
+            {
+                throw new Exception($"PaymentStatus '{paymentDto.PaymentStatus}' not found!");
+            }
+            var paymentMethod = _manager.PaymentMethodR.GetPaymentMethod(paymentDto.PaymentMethod);
+            if (paymentMethod == null)
+            {
+                throw new Exception($"PaymentMethod '{paymentDto.PaymentMethod}' not found!");
+            }
+            var reservation = _manager.ReservationR.GetOneReservation(paymentDto.ReservationId);
+            if (reservation == null)
+            {
+                throw new Exception($"Reservation '{paymentDto.ReservationId}' not found!");
+            }
+
+            var payment = _mapper.Map<Payment>(paymentDto);
+
+            payment.PaymentStatus = paymentStatus.Id;
+            payment.PaymentMethod = paymentMethod.Id;
+            payment.ReservationId = reservation.Id;
             if (payment == null)
             {
                 throw new ArgumentNullException(nameof(payment));

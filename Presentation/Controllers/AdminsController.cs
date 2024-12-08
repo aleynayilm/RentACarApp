@@ -52,14 +52,14 @@ namespace Presentation.Controllers
 
         }
         [HttpPost]
-        public IActionResult CreateOneAdmin([FromBody] Admin admin)
+        public IActionResult CreateOneAdmin([FromBody] AdminDtoForCreate adminDto)
         {
             try
             {
-                if (admin is null)
+                if (adminDto is null)
                     return BadRequest();
-                _manager.AdminServices.CreateOneAdmin(admin);
-                return StatusCode(201, admin);
+                _manager.AdminServices.CreateOneAdmin(adminDto);
+                return StatusCode(201, adminDto);
             }
             catch (Exception ex)
             {

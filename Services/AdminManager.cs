@@ -23,12 +23,13 @@ namespace Services
             _mapper = mapper;
         }
 
-        public Admin CreateOneAdmin(Admin admin)
+        public Admin CreateOneAdmin(AdminDtoForCreate adminDto)
         {
-            if (admin == null)
+            if (adminDto == null)
             {
-                throw new ArgumentNullException(nameof(admin));
+                throw new ArgumentNullException(nameof(adminDto));
             }
+            var admin = _mapper.Map<Admin>(adminDto);
             _manager.AdminR.CreateOneAdmin(admin);
             _manager.Save();
             return admin;

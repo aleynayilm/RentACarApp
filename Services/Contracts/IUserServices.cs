@@ -12,7 +12,7 @@ namespace Services.Contracts
     {
         IEnumerable<User> GetAllUsers(bool trackChanges);
         User GetOneUserById(string id, bool trackChanges);
-        User CreateOneUser(User user);
+        User CreateOneUser(UserDtoForCreate userDto);
         void UpdateOneUser(string id, UserDtoForUpdate userDto, bool trackChanges);
         void DeleteOneUser(string id, bool trackChanges);
     }

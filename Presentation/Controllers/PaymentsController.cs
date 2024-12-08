@@ -49,13 +49,13 @@ namespace Presentation.Controllers
             }
         }
         [HttpPost]
-        public IActionResult CreateOnePayment([FromBody] Payment payment) {
+        public IActionResult CreateOnePayment([FromBody] PaymentDtoForCreate paymentDto) {
             try
             {
-                if (payment is null)
+                if (paymentDto is null)
                     return BadRequest();
-                _manager.PaymentServices.CreateOnePayment(payment);
-                return StatusCode(201, payment);
+                _manager.PaymentServices.CreateOnePayment(paymentDto);
+                return StatusCode(201, paymentDto);
             }
             catch (Exception ex)
             {
