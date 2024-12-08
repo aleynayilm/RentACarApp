@@ -18,13 +18,13 @@ namespace Services
         public ServiceManager(IRepositoryManager repositoryManager, ILoggerServices logger, IMapper mapper)
         {
             _carServices = new Lazy<ICarServices>(() => new CarManager(repositoryManager, logger, mapper));
-            _reservationServices = new Lazy<IReservationServices>(() => new ReservationManager(repositoryManager, mapper));
-            _dealershipServices = new Lazy<IDealershipServices>(() => new DealershipManager(repositoryManager, mapper));
-            _paymentServices = new Lazy<IPaymentServices>(() => new PaymentManager(repositoryManager, mapper));
-            _userServices = new Lazy<IUserServices>(() => new UserManager(repositoryManager, mapper));
-            _adminServices = new Lazy<IAdminServices>(() => new AdminManager(repositoryManager, mapper));
-            _deletedServices = new Lazy<IDeletedServices>(() => new DeletedManager(repositoryManager));
-            _fuelTypeServices= new Lazy<IFuelTypeServices>(() => new FuelTypeManager(repositoryManager, mapper));
+            _reservationServices = new Lazy<IReservationServices>(() => new ReservationManager(repositoryManager, mapper, logger));
+            _dealershipServices = new Lazy<IDealershipServices>(() => new DealershipManager(repositoryManager, mapper, logger));
+            _paymentServices = new Lazy<IPaymentServices>(() => new PaymentManager(repositoryManager, mapper, logger));
+            _userServices = new Lazy<IUserServices>(() => new UserManager(repositoryManager, mapper, logger));
+            _adminServices = new Lazy<IAdminServices>(() => new AdminManager(repositoryManager, mapper, logger));
+            _deletedServices = new Lazy<IDeletedServices>(() => new DeletedManager(repositoryManager, logger));
+            _fuelTypeServices= new Lazy<IFuelTypeServices>(() => new FuelTypeManager(repositoryManager, mapper, logger));
         }
         public ICarServices CarServices => _carServices.Value;
 

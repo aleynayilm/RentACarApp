@@ -24,6 +24,7 @@ namespace Services
         }
         public Car CreateOneCar(CarDtoForCreate carDto)
         {
+            _logger.LogInfo("Starting the process to create a new car.");
             var fuelType = _manager.FuelTypeR.GetFuelTypeById(carDto.FuelType);
             if (fuelType == null)
             {
@@ -65,44 +66,61 @@ namespace Services
                 }
                 throw;
             }
-            //_manager.CarR.CreateOneCar(carDto);
-            //_manager.Save();
             return car;
         }
 
         public void DeleteOneCar(string vinNumber, bool trackChanges)
         {
+            _logger.LogInfo($"Starting the process to delete the car with VIN: {vinNumber}.");
             //check emtity
             var entity = _manager.CarR.GetOneCarByVinNumber(vinNumber, trackChanges);
 
             if (entity is null) {
                 string message = $"The car with vin number:{vinNumber} could not found";
-                _logger.LogInfo(message);
+                _logger.LogWarning(message);
                 throw new Exception(message);
             }
 
-            _manager.CarR.DeleteOneCar(entity);
-            _manager.Save();
+            try
+            {
+                _manager.CarR.DeleteOneCar(entity);
+                _logger.LogInfo("Deleting the car from the database.");
+
+                _manager.Save();
+                _logger.LogInfo($"Car with VIN: {vinNumber} deleted successfully.");
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Failed to delete the car: {ex.Message}");
+                if (ex.InnerException != null)
+                {
+                    _logger.LogError($"Inner Exception: {ex.InnerException.Message}");
+                }
+                throw;
+            }
         }
 
         public IEnumerable<Car> GetAllCars(bool trackChanges)
         {
+            _logger.LogInfo("Retrieving all cars from the database.");
             return _manager.CarR.GetAllCars(trackChanges);
         }
 
         public Car GetOneCarByVinNumber(string vinNumber, bool trackhanges)
             {
-                return _manager.CarR.GetOneCarByVinNumber(vinNumber, trackhanges);
+            _logger.LogInfo($"Retrieving the car with VIN: {vinNumber}.");
+            return _manager.CarR.GetOneCarByVinNumber(vinNumber, trackhanges);
             }
 
             public void UpdateOneCar(string vinNumber, CarDtoForUpdate carDto, bool trackChanges)
         {
+            _logger.LogInfo($"Starting the process to update the car with VIN: {vinNumber}.");
             //check emtity
             var entity = _manager.CarR.GetOneCarByVinNumber(vinNumber, trackChanges:true);
             if (entity is null)
             {
                 string message = $"The car with vin number:{vinNumber} could not found";
-                _logger.LogInfo(message);
+                _logger.LogWarning(message);
                 throw new Exception(message);
 
             }

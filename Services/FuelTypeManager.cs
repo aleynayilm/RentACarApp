@@ -14,10 +14,12 @@ namespace Services
     {
         private readonly IRepositoryManager _manager;
         private readonly IMapper _mapper;
-        public FuelTypeManager(IRepositoryManager manager, IMapper mapper)
+        private readonly ILoggerServices _logger;
+        public FuelTypeManager(IRepositoryManager manager, IMapper mapper, ILoggerServices logger)
         {
             _manager = manager;
             _mapper = mapper;
+            _logger = logger;
         }
 
         public IEnumerable<FuelType> GetAllFuelTypes(bool trackChanges)

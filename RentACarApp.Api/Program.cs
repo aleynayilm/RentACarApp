@@ -11,9 +11,10 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>
     {
-        policy.AllowAnyOrigin() // Herhangi bir kaynaða izin verir
-              .AllowAnyMethod()  // Herhangi bir HTTP metoduna izin verir
-              .AllowAnyHeader(); // Herhangi bir baþlýða izin verir
+        policy.WithOrigins("http://localhost:53979")
+               .AllowAnyHeader()
+              .AllowAnyMethod()
+              .AllowCredentials();
     });
 });
 
@@ -32,7 +33,8 @@ builder.Services.AddAutoMapper(typeof(Program));
 var app = builder.Build();
 
 // CORS'u kullanma
-app.UseCors("AllowAll");  // Bu, CORS politikasýný uygular
+  // Bu, CORS politikasýný uygular
+
 
 //app.UseRouting();  // Yönlendirme
 //app.UseAuthorization();  // Yetkilendirme
@@ -41,11 +43,13 @@ app.UseCors("AllowAll");  // Bu, CORS politikasýný uygular
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
+   
     app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
 app.MapControllers();
+app.UseCors("AllowAll");
 
 app.Run();
 

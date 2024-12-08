@@ -17,10 +17,12 @@ namespace Services
     {
         private readonly IRepositoryManager _manager;
         private readonly IMapper _mapper;
-        public AdminManager(IRepositoryManager manager, IMapper mapper)
+        private readonly ILoggerServices _logger;
+        public AdminManager(IRepositoryManager manager, IMapper mapper, ILoggerServices logger)
         {
             _manager= manager;
             _mapper = mapper;
+            _logger= logger;
         }
 
         public Admin CreateOneAdmin(AdminDtoForCreate adminDto)
@@ -32,6 +34,7 @@ namespace Services
             var admin = _mapper.Map<Admin>(adminDto);
             _manager.AdminR.CreateOneAdmin(admin);
             _manager.Save();
+            _logger.LogInfo($"Admin with ID: {admin.Id} has been created successfully.");
             return admin;
         }
 
@@ -39,9 +42,14 @@ namespace Services
         {
             var entity = _manager.AdminR.GetAdminById(id, trackChanges);
             if (entity is null)
-                throw new Exception($"Admin with id:{id} could not found");
+            {
+                string message = $"Admin with ID: {id} could not be found.";
+                _logger.LogWarning(message);
+                throw new Exception(message);
+            }
             _manager.AdminR.DeleteOneAdmin(entity);
             _manager.Save();
+            _logger.LogInfo($"Admin with ID: {id} has been deleted successfully.");
         }
 
         public IEnumerable<Admin> GetAllAdmins(bool trackChanges)
@@ -60,7 +68,7 @@ namespace Services
             if (entity is null)
             {
                 string message = $"The admin with id:{id} could not found";
-                //_logger.LogInfo(message);
+                _logger.LogInfo(message);
                 throw new Exception(message);
 
             }
@@ -73,6 +81,7 @@ namespace Services
             entity.CreatedAt = existingCreatedAt;
             _manager.AdminR.UpdateOneAdmin(entity);
             _manager.Save();
+            _logger.LogInfo($"Admin with ID: {id} has been updated successfully.");
         }
     }
 }

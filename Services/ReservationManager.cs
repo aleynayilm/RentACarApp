@@ -10,6 +10,7 @@ using System.Numerics;
 using System.Runtime.ConstrainedExecution;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Services
 {
@@ -17,16 +18,20 @@ namespace Services
     {
         private readonly IRepositoryManager _manager;
         private readonly IMapper _mapper;
-
-        public ReservationManager(IRepositoryManager manager, IMapper mapper)
+        private readonly ILoggerServices _logger;
+        public ReservationManager(IRepositoryManager manager, IMapper mapper, ILoggerServices logger)
         {
             _manager = manager;
             _mapper = mapper;
+            _logger = logger;
         }
 
         public Reservation CreateOneReservation(ReservationsDtoForCreate reservationDto)
         {
-            var user = _manager.UserR.GetUser(reservationDto.UserId);
+            try
+            {
+                _logger.LogInfo($"CreateOneReservation started for UserId: {reservationDto.UserId}, CarId: {reservationDto.CarId}");
+                var user = _manager.UserR.GetUser(reservationDto.UserId);
             if (user == null)
             {
                 throw new Exception($"UserId '{reservationDto.UserId}' not found!");
@@ -47,39 +52,70 @@ namespace Services
             reservation.UserId = user.Id;
             reservation.CarId = car.VinNumber;
             reservation.Status = status.Id;
-            if (reservation == null) { throw new ArgumentNullException(nameof(reservation)); }
-            _manager.ReservationR.CreateOneReservation(reservation);
+                if (reservation == null)
+                {
+                    string error = "Reservation mapping failed!";
+                    _logger.LogError(error);
+                    throw new ArgumentNullException(nameof(reservation));
+                }
+                _manager.ReservationR.CreateOneReservation(reservation);
             _manager.Save();
-            return reservation;
+                _logger.LogInfo($"Reservation created successfully for UserId: {reservation.UserId}, CarId: {reservation.CarId}");
+                return reservation;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"CreateOneReservation failed: {ex.Message}");
+                throw;
+            }
         }
 
         public void DeleteOneReservation(int id, bool trackChanges)
         {
-            var entity = _manager.ReservationR.GetOneReservationById(id, trackChanges);
+            try
+            {
+                _logger.LogInfo($"DeleteOneReservation started for ReservationId: {id}");
+                var entity = _manager.ReservationR.GetOneReservationById(id, trackChanges);
             if (entity is null)
                 throw new Exception($"Reservation with id:{id} could not found");
             _manager.ReservationR.DeleteOneReservation(entity);
             _manager.Save();
+                _logger.LogInfo($"Reservation with id:{id} deleted successfully");
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"DeleteOneReservation failed for ReservationId: {id}: {ex.Message}");
+                throw;
+            }
         }
 
         public IEnumerable<Reservation> GetAllReservations(bool trackChanges)
         {
-           return _manager.ReservationR.GetAllReservations(trackChanges);
+            _logger.LogInfo("GetAllReservations started");
+            var reservations = _manager.ReservationR.GetAllReservations(trackChanges);
+            _logger.LogInfo($"GetAllReservations completed with {reservations.Count()} reservations");
+            return reservations;
         }
 
         public Reservation GetOneReservationById(int id, bool trackChanges)
         {
-            return _manager.ReservationR.GetOneReservationById(id, trackChanges);
+            _logger.LogInfo($"GetOneReservationById started for ReservationId: {id}");
+            var reservation = _manager.ReservationR.GetOneReservationById(id, trackChanges);
+            _logger.LogInfo($"GetOneReservationById completed for ReservationId: {id}");
+            return reservation;
         }
 
         public void UpdateOneReservation(int id, ReservationDtoForUpdate reservationDto, bool trackChanges)
         {
-            var entity = _manager.ReservationR.GetOneReservationById(id, trackChanges: true);
+            try
+            {
+                _logger.LogInfo($"UpdateOneReservation started for ReservationId: {id}");
+                var entity = _manager.ReservationR.GetOneReservationById(id, trackChanges: true);
             if (entity is null)
             {
                 string message = $"The reservation with id:{id} could not found";
-                //_logger.LogInfo(message);
-                throw new Exception(message);
+                    _logger.LogError(message);
+                    throw new Exception(message);
 
             }
             if (reservationDto is null)
@@ -91,6 +127,13 @@ namespace Services
             entity.CreatedDate = existingCreatedDate;
             _manager.ReservationR.UpdateOneReservation(entity);
             _manager.Save();
+                _logger.LogInfo($"Reservation with id:{id} updated successfully");
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"UpdateOneReservation failed for ReservationId: {id}: {ex.Message}");
+                throw;
+            }
         }
     }
 }

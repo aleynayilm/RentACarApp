@@ -17,51 +17,75 @@ namespace Services
     {
         private readonly IRepositoryManager _manager;
         private readonly IMapper _mapper;
-        public UserManager(IRepositoryManager manager, IMapper mapper)
+        private readonly ILoggerServices _logger;
+        public UserManager(IRepositoryManager manager, IMapper mapper, ILoggerServices logger)
         {
             _manager = manager;
             _mapper = mapper;
+            _logger = logger;
         }
 
         public User CreateOneUser(UserDtoForCreate userDto)
         {
             if (userDto == null)
             {
+                _logger.LogError("CreateOneUser: UserDto is null");
                 throw new ArgumentNullException(nameof(userDto));
             }
             var user = _mapper.Map<User>(userDto);
             _manager.UserR.CreateOneUser(user);
             _manager.Save();
+            _logger.LogInfo($"CreateOneUser: User created successfully with ID: {user.Id}");
             return user;
         }
 
         public void DeleteOneUser(string id, bool trackChanges)
         {
+            _logger.LogInfo($"DeleteOneUser: Attempting to delete user with ID: {id}");
             var entity = _manager.UserR.GetOneUserById(id, trackChanges);
-            if (entity is null)
-                throw new Exception($"User with id:{id} could not found");
+            if (entity == null)
+            {
+                string message = $"DeleteOneUser: User with ID: {id} could not be found";
+                _logger.LogError(message);
+                throw new Exception(message);
+            }
             _manager.UserR.DeleteOneUser(entity);
             _manager.Save();
+            _logger.LogInfo($"DeleteOneUser: User with ID: {id} deleted successfully");
         }
 
         public IEnumerable<User> GetAllUsers(bool trackChanges)
         {
+            _logger.LogInfo("GetAllUsers: Retrieving all users");
             return _manager.UserR.GetAllUsers(trackChanges);
         }
 
         public User GetOneUserById(string id, bool trackChanges)
         {
-            return _manager.UserR.GetOneUserById(id, trackChanges);
+            _logger.LogInfo($"GetOneUserById: Retrieving user with ID: {id}");
+            var user = _manager.UserR.GetOneUserById(id, trackChanges);
+            if (user == null)
+            {
+                string message = $"GetOneUserById: User with ID: {id} could not be found";
+                _logger.LogWarning(message);
+            }
+            else
+            {
+                _logger.LogInfo($"GetOneUserById: User with ID: {id} retrieved successfully");
+            }
+
+            return user;
         }
 
         public void UpdateOneUser(string id, UserDtoForUpdate userDto, bool trackChanges)
         {
+            _logger.LogInfo($"UpdateOneUser: Attempting to update user with ID: {id}");
             //check emtity
             var entity = _manager.UserR.GetOneUserById(id, trackChanges: true);
             if (entity is null)
             {
                 string message = $"The user with id:{id} could not found";
-                //_logger.LogInfo(message);
+                _logger.LogError(message);
                 throw new Exception(message);
 
             }
@@ -75,6 +99,7 @@ namespace Services
             entity.CreatedAt = existingCreatedAt;
             _manager.UserR.UpdateOneUser(entity);
             _manager.Save();
+            _logger.LogInfo($"UpdateOneUser: User with ID: {id} updated successfully");
         }
     }
 }

@@ -13,25 +13,30 @@ using System.Threading.Tasks;
 
 namespace Services
 {
-    internal class DealershipManager : IDealershipServices
+    public class DealershipManager : IDealershipServices
     {
         private readonly IRepositoryManager _manager;
         private readonly IMapper _mapper;
-        public DealershipManager(IRepositoryManager manager, IMapper mapper)
+        private readonly ILoggerServices _logger;
+        public DealershipManager(IRepositoryManager manager, IMapper mapper, ILoggerServices logger)
         {
             _manager = manager;
             _mapper = mapper;
+            _logger = logger;
         }
 
         public Dealership CreateOneDealership(DealershipDtoForCreate dealershipDto)
         {
             if (dealershipDto == null)
             {
+                string message = "CreateOneDealership: Input dealershipDto is null.";
+                _logger.LogError(message);
                 throw new ArgumentNullException(nameof(dealershipDto));
             }
             var dealership = _mapper.Map<Dealership>(dealershipDto);
             _manager.DealershipR.CreateOneDealership(dealership);
             _manager.Save();
+            _logger.LogInfo($"CreateOneDealership: Dealership with id:{dealership.Id} created successfully.");
             return dealership;
         }
 
@@ -39,9 +44,14 @@ namespace Services
         {
             var entity = _manager.DealershipR.GetOneDealershipById(id, trackChanges);
             if (entity is null)
-                throw new Exception($"Dealership with id:{id} could not found");
+            {
+                string message = $"DeleteOneDealership: Dealership with id:{id} could not be found.";
+                _logger.LogError(message);
+                throw new Exception(message);
+            }
             _manager.DealershipR.DeleteOneDealership(entity);
             _manager.Save();
+            _logger.LogInfo($"DeleteOneDealership: Dealership with id:{id} deleted successfully.");
         }
 
         public IEnumerable<Dealership> GetAllDealerships(bool trackChanges)
@@ -60,7 +70,7 @@ namespace Services
             if (entity is null)
             {
                 string message = $"The dealership with id:{id} could not found";
-                //_logger.LogInfo(message);
+                _logger.LogError(message);
                 throw new Exception(message);
 
             }
@@ -71,6 +81,7 @@ namespace Services
             //entity = _mapper.Map<Dealership>(dealershipDto);
             _manager.DealershipR.UpdateOneDealership(entity);
             _manager.Save();
+            _logger.LogInfo($"UpdateOneDealership: Dealership with id:{id} updated successfully.");
         }
     }
 }

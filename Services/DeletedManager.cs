@@ -12,9 +12,11 @@ namespace Services
     public class DeletedManager : IDeletedServices
     {
         private readonly IRepositoryManager _manager;
-        public DeletedManager(IRepositoryManager manager)
+        private readonly ILoggerServices _logger;
+        public DeletedManager(IRepositoryManager manager, ILoggerServices logger)
         {
             _manager = manager;
+            _logger = logger;
         }
 
         public Deleted CreateOneDeleted(Deleted deleted)
