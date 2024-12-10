@@ -397,7 +397,7 @@ public partial class RepositoryContext : DbContext
                 .IsUnicode(false)
                 .HasColumnName("name");
             entity.Property(e => e.Password)
-                .HasMaxLength(8)
+                .HasMaxLength(255)
                 .IsUnicode(false)
                 .IsFixedLength()
                 .HasColumnName("password");

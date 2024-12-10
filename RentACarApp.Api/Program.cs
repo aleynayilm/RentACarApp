@@ -7,6 +7,7 @@ using Repositories.EFCore;
 
 var builder = WebApplication.CreateBuilder(args);
 LogManager.LoadConfiguration(String.Concat(Directory.GetCurrentDirectory(),"/nlog.config"));
+builder.Services.AddHttpContextAccessor();
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>

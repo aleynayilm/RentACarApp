@@ -551,5 +551,25 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Presentation.Controllers.BackupController",
+    "Method": "BackupDatabase",
+    "RelativePath": "backup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Presentation.Controllers.BackupController",
+    "Method": "RestoreDatabase",
+    "RelativePath": "restore",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

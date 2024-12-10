@@ -73,6 +73,14 @@
           }
         }
       },
+      "BCrypt.Net-Next/4.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/BCrypt.Net-Next.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
       "Castle.Core/5.1.1": {
         "dependencies": {
           "System.Diagnostics.EventLog": "6.0.0"
@@ -1295,7 +1303,9 @@
       "Services/1.0.0": {
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
+          "BCrypt.Net-Next": "4.0.0",
           "Entities": "1.0.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.EntityFrameworkCore.Proxies": "8.0.10",
           "NLog.Extensions.Logging": "5.3.15",
           "Repositories": "1.0.0"
@@ -1342,6 +1352,13 @@
       "sha512": "sha512-l1Xm2MWOF2Mzcwuarlw8kWQXLZk3UeB55aQXVyjj23aBfDwOZ3gu5GP2kJ6KlmZeZv2TCzw7x4L3V36iNr3gww==",
       "path": "azure.identity/1.10.3",
       "hashPath": "azure.identity.1.10.3.nupkg.sha512"
+    },
+    "BCrypt.Net-Next/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1rjyVK+/YJnCElALjVNt/aUPIIRoFocFZzblsiFo2giA3WVYExk/E5UT6i4RqEHwIwEwoQHt02I1llaEIQ59eQ==",
+      "path": "bcrypt.net-next/4.0.0",
+      "hashPath": "bcrypt.net-next.4.0.0.nupkg.sha512"
     },
     "Castle.Core/5.1.1": {
       "type": "package",

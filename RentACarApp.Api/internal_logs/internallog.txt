@@ -706,3 +706,115 @@
 2024-12-08 19:01:55.1553 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
 2024-12-08 19:01:55.1674 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
 2024-12-08 19:01:55.1803 Info Configuration initialized.
+2024-12-09 18:12:39.1813 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-09 18:12:39.1900 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-09 18:12:39.1958 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-09 18:12:39.1958 Info Configuration initialized.
+2024-12-09 19:00:32.0514 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-09 19:00:32.0611 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-09 19:00:32.0611 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-09 19:00:32.0775 Info Configuration initialized.
+2024-12-09 19:26:02.7561 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-09 19:26:02.7676 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-09 19:26:02.7756 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-09 19:26:02.7756 Info Configuration initialized.
+2024-12-09 19:30:27.7814 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-09 19:30:27.7882 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-09 19:30:27.7882 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-09 19:30:27.7882 Info Configuration initialized.
+2024-12-09 19:30:28.7794 Info AppDomain Shutting down. LogFactory closing...
+2024-12-09 19:30:28.7794 Info LogFactory has been closed.
+2024-12-09 19:30:41.9064 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-09 19:30:41.9129 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-09 19:30:41.9129 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-09 19:30:41.9129 Info Configuration initialized.
+2024-12-09 19:30:42.4967 Info AppDomain Shutting down. LogFactory closing...
+2024-12-09 19:30:42.4967 Info LogFactory has been closed.
+2024-12-09 19:30:47.6656 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-09 19:30:47.6755 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-09 19:30:47.6814 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-09 19:30:47.6814 Info Configuration initialized.
+2024-12-10 11:11:10.2736 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-10 11:11:10.2831 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-10 11:11:10.2895 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-10 11:11:10.2895 Info Configuration initialized.
+2024-12-10 11:40:12.9026 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-10 11:40:12.9294 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-10 11:40:12.9294 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-10 11:40:12.9294 Info Configuration initialized.
+2024-12-10 11:40:13.8677 Info AppDomain Shutting down. LogFactory closing...
+2024-12-10 11:40:13.8677 Info LogFactory has been closed.
+2024-12-10 11:40:34.2588 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-10 11:40:34.2588 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-10 11:40:34.2588 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-10 11:40:34.2760 Info Configuration initialized.
+2024-12-10 11:40:34.8254 Info AppDomain Shutting down. LogFactory closing...
+2024-12-10 11:40:34.8254 Info LogFactory has been closed.
+2024-12-10 11:44:46.8006 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-10 11:44:46.8099 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-10 11:44:46.8099 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-10 11:44:46.8242 Info Configuration initialized.
+2024-12-10 12:02:29.7113 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-10 12:02:29.7211 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-10 12:02:29.7273 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-10 12:02:29.7273 Info Configuration initialized.
+2024-12-10 14:02:00.4422 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-10 14:02:00.4791 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-10 14:02:00.5068 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-10 14:02:00.5523 Info Configuration initialized.
+2024-12-10 19:35:50.7582 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-10 19:35:50.7718 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-10 19:35:50.8231 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-10 19:35:50.8231 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-10 19:35:50.8425 Info Configuration initialized.
+2024-12-10 20:07:00.8693 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-10 20:07:00.8770 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-10 20:07:00.9036 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-10 20:07:00.9036 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-10 20:07:00.9158 Info Configuration initialized.
+2024-12-10 20:07:26.7709 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-10 20:07:26.7802 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-10 20:07:26.8151 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-10 20:07:26.8305 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-10 20:07:26.8495 Info Configuration initialized.
+2024-12-10 20:10:10.3090 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-10 20:10:10.3181 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-10 20:10:10.3498 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-10 20:10:10.3559 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-10 20:10:10.3559 Info Configuration initialized.
+2024-12-10 20:14:50.4904 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-10 20:14:50.5011 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-10 20:14:50.5306 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-10 20:14:50.5397 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-10 20:14:50.5397 Info Configuration initialized.
+2024-12-10 20:23:01.6690 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-10 20:23:01.6791 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-10 20:23:01.7081 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-10 20:23:01.7145 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-10 20:23:01.7145 Info Configuration initialized.
+2024-12-10 20:57:49.6077 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-10 20:57:49.6077 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-10 20:57:49.6382 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-10 20:57:49.6382 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-10 20:57:49.6506 Info Configuration initialized.
+2024-12-10 21:10:19.4639 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-10 21:10:19.4743 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-10 21:10:19.4991 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-10 21:10:19.4991 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-10 21:10:19.5128 Info Configuration initialized.
