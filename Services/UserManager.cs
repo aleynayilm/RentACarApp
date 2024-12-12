@@ -25,10 +25,11 @@ namespace Services
             _mapper = mapper;
             _logger = logger;
         }
-        public bool VerifyPassword(string enteredPassword, string storedHashedPassword)
-        {
-            return BCrypt.Net.BCrypt.Verify(enteredPassword, storedHashedPassword);
-        }
+        //public bool VerifyPassword(string enteredPassword, string storedHashedPassword)
+        //{
+        //    return BCrypt.Net.BCrypt.Verify(enteredPassword, storedHashedPassword);
+        //}
+
         public User CreateOneUser(UserDtoForCreate userDto)
         {
             if (userDto == null)
@@ -36,10 +37,10 @@ namespace Services
                 _logger.LogError("CreateOneUser: UserDto is null");
                 throw new ArgumentNullException(nameof(userDto));
             }
-            var hashedPassword = BCrypt.Net.BCrypt.HashPassword(userDto.Password);
+            //var hashedPassword = BCrypt.Net.BCrypt.HashPassword(userDto.Password);
             
             var user = _mapper.Map<User>(userDto);
-            user.Password= hashedPassword;  // Hash'lenmiş şifreyi ekliyoruz
+            /*user.Password= hashedPassword;*/  // Hash'lenmiş şifreyi ekliyoruz
             _manager.UserR.CreateOneUser(user);
             _manager.Save();
             _logger.LogInfo($"CreateOneUser: User created successfully with ID: {user.Id}");

@@ -1,11 +1,17 @@
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using NLog;
+using NLog.Web;
 using RentACarApp.Api.Extensions;
 using Repositories.EFCore;
+using Services.Contracts;
+using Services;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 var builder = WebApplication.CreateBuilder(args);
+
 LogManager.LoadConfiguration(String.Concat(Directory.GetCurrentDirectory(),"/nlog.config"));
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddCors(options =>
@@ -19,6 +25,7 @@ builder.Services.AddCors(options =>
     });
 });
 
+
 // Add services to the container.
 builder.Services.AddControllers().AddApplicationPart(typeof(Presentation.AssemblyReference).Assembly);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -30,15 +37,14 @@ builder.Services.ConfigureServicesManager();
 builder.Services.ConfigureLoggerService();
 builder.Services.AddAutoMapper(typeof(Program));
 
+builder.Services.AddScoped<IDeletedServices, DeletedManager>();
+builder.Services.AddScoped<IServiceManager, ServiceManager>();
 
+// NLog'u entegre et
+builder.Logging.ClearProviders();
+builder.Logging.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Debug);
+builder.Host.UseNLog();
 var app = builder.Build();
-
-// CORS'u kullanma
-  // Bu, CORS politikasýný uygular
-
-
-//app.UseRouting();  // Yönlendirme
-//app.UseAuthorization();  // Yetkilendirme
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

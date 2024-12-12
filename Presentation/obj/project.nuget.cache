@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EoULuafsRp8=",
+  "dgSpecHash": "IvOamk0JCDc=",
   "success": true,
   "projectFilePath": "C:\\development\\RentACarApp\\Presentation\\Presentation.csproj",
   "expectedPackageFiles": [
@@ -66,6 +66,7 @@
     "C:\\Users\\aleynayilmaz\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
     "C:\\Users\\aleynayilmaz\\.nuget\\packages\\nlog\\5.3.4\\nlog.5.3.4.nupkg.sha512",
     "C:\\Users\\aleynayilmaz\\.nuget\\packages\\nlog.extensions.logging\\5.3.15\\nlog.extensions.logging.5.3.15.nupkg.sha512",
+    "C:\\Users\\aleynayilmaz\\.nuget\\packages\\nlog.web.aspnetcore\\5.3.15\\nlog.web.aspnetcore.5.3.15.nupkg.sha512",
     "C:\\Users\\aleynayilmaz\\.nuget\\packages\\runtime.native.system\\4.0.0\\runtime.native.system.4.0.0.nupkg.sha512",
     "C:\\Users\\aleynayilmaz\\.nuget\\packages\\system.appcontext\\4.1.0\\system.appcontext.4.1.0.nupkg.sha512",
     "C:\\Users\\aleynayilmaz\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",

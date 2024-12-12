@@ -818,3 +818,328 @@
 2024-12-10 21:10:19.4991 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
 2024-12-10 21:10:19.4991 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
 2024-12-10 21:10:19.5128 Info Configuration initialized.
+2024-12-10 21:27:43.3751 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-10 21:27:43.4001 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-10 21:27:43.4897 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: *.
+2024-12-10 21:27:43.4941 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-10 21:27:43.5167 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-10 21:27:43.5367 Info Configuration initialized.
+2024-12-11 07:38:02.9712 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-11 07:38:02.9921 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-11 07:38:03.0484 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: *.
+2024-12-11 07:38:03.0484 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-11 07:38:03.0601 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 07:38:03.0726 Info Configuration initialized.
+2024-12-11 07:58:59.5597 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-11 07:58:59.5917 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-11 07:58:59.6344 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: *.
+2024-12-11 07:58:59.6344 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-11 07:58:59.6585 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 07:58:59.6731 Info Configuration initialized.
+2024-12-11 07:59:00.6500 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 08:01:50.5043 Info Configuration file change detected! Reloading in 1000ms...
+2024-12-11 08:01:51.5182 Info Reloading configuration...
+2024-12-11 08:01:51.5492 Info Loading NLog config from XML file: C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 08:01:51.5531 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-11 08:01:51.5531 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-11 08:01:51.5531 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: *.
+2024-12-11 08:01:51.5531 Info Closing old configuration.
+2024-12-11 08:01:51.5777 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 08:01:51.5777 Info Configuration initialized.
+2024-12-11 08:01:57.6251 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-11 08:01:57.6423 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-11 08:01:57.6895 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: *.
+2024-12-11 08:01:57.6895 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-11 08:01:57.7059 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 08:01:57.7227 Info Configuration initialized.
+2024-12-11 08:01:57.9829 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 08:25:49.3686 Info Configuration file change detected! Reloading in 1000ms...
+2024-12-11 08:25:50.3894 Info Reloading configuration...
+2024-12-11 08:25:50.4269 Info Loading NLog config from XML file: C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 08:25:50.4323 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-11 08:25:50.4323 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-11 08:25:50.4323 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: *.
+2024-12-11 08:25:50.4323 Info Closing old configuration.
+2024-12-11 08:25:50.4663 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 08:25:50.4663 Info Configuration initialized.
+2024-12-11 08:26:02.0236 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-11 08:26:02.0496 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-11 08:26:02.1140 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: *.
+2024-12-11 08:26:02.1198 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-11 08:26:02.1450 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 08:26:02.1768 Info Configuration initialized.
+2024-12-11 08:26:02.5638 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 12:11:39.1480 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-11 12:11:39.1574 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-11 12:11:39.1878 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: *.
+2024-12-11 12:11:39.1878 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-11 12:11:39.1967 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 12:11:39.1967 Info Configuration initialized.
+2024-12-11 12:15:28.4942 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-11 12:15:28.5009 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-11 12:15:28.5237 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: *.
+2024-12-11 12:15:28.5237 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-11 12:15:28.5237 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 12:15:28.5377 Info Configuration initialized.
+2024-12-11 12:15:28.6593 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 12:25:28.0037 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-11 12:25:28.0111 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-11 12:25:28.0309 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: *.
+2024-12-11 12:25:28.0309 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-11 12:25:28.0392 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 12:25:28.0392 Info Configuration initialized.
+2024-12-11 12:25:28.1906 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 12:44:04.5446 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-11 12:44:04.5446 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-11 12:44:04.5727 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: *.
+2024-12-11 12:44:04.5727 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-11 12:44:04.5727 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 12:44:04.5873 Info Configuration initialized.
+2024-12-11 12:44:04.7247 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 16:04:21.7310 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-11 16:04:21.7533 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-11 16:04:21.7614 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: *.
+2024-12-11 16:04:21.7614 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-11 16:04:21.7614 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 16:04:21.7749 Info Configuration initialized.
+2024-12-11 16:04:21.9903 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 16:05:05.1327 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-11 16:05:05.1327 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-11 16:05:05.1327 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: *.
+2024-12-11 16:05:05.1454 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-11 16:05:05.1454 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 16:05:05.1454 Info Configuration initialized.
+2024-12-11 16:05:05.1851 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 16:09:58.3452 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-11 16:09:58.3501 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-11 16:09:58.3501 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: *.
+2024-12-11 16:09:58.3501 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-11 16:09:58.3501 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 16:09:58.3697 Info Configuration initialized.
+2024-12-11 16:09:58.3977 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 16:25:05.8886 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-11 16:25:05.8962 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-11 16:25:05.9272 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: *.
+2024-12-11 16:25:05.9272 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-11 16:25:05.9272 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 16:25:05.9439 Info Configuration initialized.
+2024-12-11 16:25:06.4072 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 16:29:28.8296 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-11 16:29:28.8375 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-11 16:29:28.8604 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: *.
+2024-12-11 16:29:28.8604 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-11 16:29:28.8682 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 16:29:28.8682 Info Configuration initialized.
+2024-12-11 16:29:29.0127 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 16:32:27.5341 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-11 16:32:27.5442 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-11 16:32:27.5733 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: *.
+2024-12-11 16:32:27.5733 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-11 16:32:27.5733 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 16:32:27.5917 Info Configuration initialized.
+2024-12-11 16:32:27.7581 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 16:32:43.4839 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-11 16:32:43.4936 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-11 16:32:43.5275 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: *.
+2024-12-11 16:32:43.5275 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-11 16:32:43.5365 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 16:32:43.5365 Info Configuration initialized.
+2024-12-11 16:32:43.6917 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 16:41:33.6556 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-11 16:41:33.6639 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-11 16:41:33.6888 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: *.
+2024-12-11 16:41:33.6888 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-11 16:41:33.6990 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 16:41:33.7132 Info Configuration initialized.
+2024-12-11 16:41:33.8936 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 16:56:07.4859 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-11 16:56:07.5001 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-11 16:56:07.5362 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: *.
+2024-12-11 16:56:07.5388 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-11 16:56:07.5388 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 16:56:07.5590 Info Configuration initialized.
+2024-12-11 16:56:07.7200 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 21:37:55.6645 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-11 21:37:55.6858 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-11 21:37:55.7644 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: *.
+2024-12-11 21:37:55.7644 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-11 21:37:55.7999 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 21:37:55.8236 Info Configuration initialized.
+2024-12-11 21:37:56.2516 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 21:40:40.8897 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-11 21:40:40.9015 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-11 21:40:40.9609 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: *.
+2024-12-11 21:40:40.9609 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-11 21:40:40.9782 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 21:40:40.9943 Info Configuration initialized.
+2024-12-11 21:40:41.6376 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 21:44:55.2225 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-11 21:44:55.2342 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-11 21:44:55.2866 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: *.
+2024-12-11 21:44:55.2866 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-11 21:44:55.2866 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 21:44:55.3170 Info Configuration initialized.
+2024-12-11 21:44:55.9410 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 21:45:46.5364 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-11 21:45:46.5594 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-11 21:45:46.6259 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: *.
+2024-12-11 21:45:46.6304 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-11 21:45:46.6500 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 21:45:46.6767 Info Configuration initialized.
+2024-12-11 21:45:47.5538 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 21:46:40.0855 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-11 21:46:40.1043 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-11 21:46:40.2188 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: *.
+2024-12-11 21:46:40.2239 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-11 21:46:40.2239 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 21:46:40.2556 Info Configuration initialized.
+2024-12-11 21:46:40.4938 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 22:04:43.3322 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-11 22:04:43.3488 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-11 22:04:43.4057 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: *.
+2024-12-11 22:04:43.4057 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-11 22:04:43.4266 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 22:04:43.4476 Info Configuration initialized.
+2024-12-11 22:04:43.8311 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 22:12:43.2686 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-11 22:12:43.2955 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-11 22:12:43.3712 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: *.
+2024-12-11 22:12:43.3712 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-11 22:12:43.4052 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-11 22:12:43.4428 Info Configuration initialized.
+2024-12-11 22:12:43.8246 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-12 00:24:39.7893 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-12 00:24:39.7960 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-12 00:24:39.8147 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: *.
+2024-12-12 00:24:39.8147 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-12 00:24:39.8214 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-12 00:24:39.8214 Info Configuration initialized.
+2024-12-12 00:24:40.4167 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-12 00:44:11.3075 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-12 00:44:11.3143 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-12 00:44:11.3342 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: *.
+2024-12-12 00:44:11.3342 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-12 00:44:11.3342 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-12 00:44:11.3342 Info Configuration initialized.
+2024-12-12 00:44:11.4435 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-12 00:50:44.9839 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-12 00:50:44.9901 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-12 00:50:45.0116 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: *.
+2024-12-12 00:50:45.0116 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-12 00:50:45.0116 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-12 00:50:45.0255 Info Configuration initialized.
+2024-12-12 00:50:45.4418 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-12 02:39:52.4072 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-12 02:39:52.4233 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-12 02:39:52.4834 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: *.
+2024-12-12 02:39:52.4834 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-12 02:39:52.4975 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-12 02:39:52.5103 Info Configuration initialized.
+2024-12-12 02:39:53.8347 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-12 08:12:35.3083 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-12 08:12:35.3170 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-12 08:12:35.3522 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: *.
+2024-12-12 08:12:35.3522 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-12 08:12:35.3522 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-12 08:12:35.3716 Info Configuration initialized.
+2024-12-12 08:12:35.5925 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-12 08:18:15.4184 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-12 08:18:15.4184 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-12 08:18:15.4478 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: *.
+2024-12-12 08:18:15.4478 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-12 08:18:15.4478 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-12 08:18:15.4618 Info Configuration initialized.
+2024-12-12 08:18:15.5745 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-12 08:19:47.4804 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-12 08:19:47.4804 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-12 08:19:47.5060 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: *.
+2024-12-12 08:19:47.5060 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-12 08:19:47.5060 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-12 08:19:47.5060 Info Configuration initialized.
+2024-12-12 08:19:47.6210 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-12 08:59:39.0968 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-12 08:59:39.1129 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-12 08:59:39.1482 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: *.
+2024-12-12 08:59:39.1482 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-12 08:59:39.1622 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-12 08:59:39.1622 Info Configuration initialized.
+2024-12-12 08:59:39.4633 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-12 09:04:20.1657 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-12 09:04:20.1740 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'Database' - Extension NLog.Database not included?
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2024-12-12 09:04:20.1959 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'database' not found for logging rule: *.
+2024-12-12 09:04:20.1959 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-12 09:04:20.1959 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config
+2024-12-12 09:04:20.2124 Info Configuration initialized.
+2024-12-12 09:04:20.3227 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\development\RentACarApp\RentACarApp.Api\nlog.config

@@ -49,6 +49,14 @@
             "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
               "version": "[8.0.10, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.3.4, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.15, )"
             }
           },
           "imports": [
@@ -124,6 +132,14 @@
             "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
               "version": "[8.0.10, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.3.4, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.15, )"
             }
           },
           "imports": [
@@ -233,6 +249,14 @@
               "target": "Package",
               "version": "[8.0.10, )"
             },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.3.4, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.15, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -318,6 +342,14 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.10, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.3.4, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.15, )"
             }
           },
           "imports": [
@@ -405,7 +437,15 @@
               "target": "Package",
               "version": "[8.0.10, )"
             },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.3.4, )"
+            },
             "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.3.15, )"
+            },
+            "NLog.Web.AspNetCore": {
               "target": "Package",
               "version": "[5.3.15, )"
             }

@@ -1,26 +1,35 @@
 ﻿using AutoMapper;
 using Entities.DataTransferObjects;
 using Entities.Models;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.VisualBasic.FileIO;
 using Repositories.Contracts;
+using Repositories.EFCore;
 using Services.Contracts;
 using System.Diagnostics;
 using System.Diagnostics.Eventing.Reader;
+using System.Security.Claims;
 
 namespace Services
 {
     public class CarManager : ICarServices
     {
+        private readonly IHttpContextAccessor _httpContextAccessor;
         private readonly IRepositoryManager _manager;
         private readonly ILoggerServices _logger;
         private readonly IMapper _mapper;
+        private readonly IDeletedServices _deletedManager;
 
-        public CarManager(IRepositoryManager manager, ILoggerServices logger, IMapper mapper)
+        public CarManager(IHttpContextAccessor httpContextAccessor, IRepositoryManager manager, ILoggerServices logger, IMapper mapper, IDeletedServices deletedManager)
         {
             _manager = manager;
             _logger = logger;
             _mapper = mapper;
+            _httpContextAccessor = httpContextAccessor;
+            _deletedManager = deletedManager;
         }
         public Car CreateOneCar(CarDtoForCreate carDto)
         {
@@ -68,11 +77,9 @@ namespace Services
             }
             return car;
         }
-
-        public void DeleteOneCar(string vinNumber, bool trackChanges)
+        public void DeleteOneCar([FromRoute(Name = "vinNumber")] string vinNumber, bool trackChanges)
         {
             _logger.LogInfo($"Starting the process to delete the car with VIN: {vinNumber}.");
-            //check emtity
             var entity = _manager.CarR.GetOneCarByVinNumber(vinNumber, trackChanges);
 
             if (entity is null) {

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MrGg8H8gRmE=",
+  "dgSpecHash": "YpBMThCX7y4=",
   "success": true,
   "projectFilePath": "C:\\development\\RentACarApp\\RentACarApp.Api\\RentACarApp.Api.csproj",
   "expectedPackageFiles": [
@@ -76,6 +76,7 @@
     "C:\\Users\\aleynayilmaz\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\aleynayilmaz\\.nuget\\packages\\nlog\\5.3.4\\nlog.5.3.4.nupkg.sha512",
     "C:\\Users\\aleynayilmaz\\.nuget\\packages\\nlog.extensions.logging\\5.3.15\\nlog.extensions.logging.5.3.15.nupkg.sha512",
+    "C:\\Users\\aleynayilmaz\\.nuget\\packages\\nlog.web.aspnetcore\\5.3.15\\nlog.web.aspnetcore.5.3.15.nupkg.sha512",
     "C:\\Users\\aleynayilmaz\\.nuget\\packages\\swashbuckle.aspnetcore\\6.6.2\\swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
     "C:\\Users\\aleynayilmaz\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.6.2\\swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
     "C:\\Users\\aleynayilmaz\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.6.2\\swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",

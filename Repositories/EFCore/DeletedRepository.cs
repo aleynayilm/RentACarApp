@@ -14,15 +14,15 @@ namespace Repositories.EFCore
         {
         }
 
-        public void CreateOneDeleted(Deleted deleted) => CreateOneDeleted(deleted);
+        public void CreateOneDeleted(Deleted deleted) => Create(deleted);
 
-        public void DeleteOneDeleted(Deleted deleted)=> DeleteOneDeleted(deleted);
+        public void DeleteOneDeleted(Deleted deleted)=> Delete(deleted);
 
         public IQueryable<Deleted> GetAllDeleteds(bool trackChanges) =>
             FindAll(trackChanges).OrderBy(c => c.Id);
 
         public Deleted GetOneDeletedById(int id, bool trackChanges) => FindByCondiition(c => c.Id.Equals(id), trackChanges).SingleOrDefault();
 
-        public void UpdateOneDeleted(Deleted deleted)=> UpdateOneDeleted(deleted);
+        public void UpdateOneDeleted(Deleted deleted)=> Update(deleted);
     }
 }

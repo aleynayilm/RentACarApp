@@ -159,3 +159,4 @@ C:\development\RentACarApp\RentACarApp.Api\obj\Debug\net8.0\RentACarApp.Api.pdb
 C:\development\RentACarApp\RentACarApp.Api\obj\Debug\net8.0\RentACarApp.Api.genruntimeconfig.cache
 C:\development\RentACarApp\RentACarApp.Api\obj\Debug\net8.0\ref\RentACarApp.Api.dll
 C:\development\RentACarApp\RentACarApp.Api\obj\Debug\net8.0\RentACarApp.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\development\RentACarApp\RentACarApp.Api\bin\Debug\net8.0\NLog.Web.AspNetCore.dll

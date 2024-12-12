@@ -121,6 +121,13 @@ public partial class RepositoryContext : DbContext
                 .HasColumnName("updated_at");
             entity.Property(e => e.Year).HasColumnName("year");
 
+            //entity.HasOne(e => e.DeletedByAdmin)
+            //  .WithMany(a => a.DeletedCars)
+            //  .HasForeignKey(e => e.DeletedBy)
+            //  .OnDelete(DeleteBehavior.ClientSetNull);
+            //entity.Property(e => e.DeletedBy).IsRequired(false);
+            //entity.Property(e => e.ImageUrl).IsRequired(false).HasMaxLength(int.MaxValue);
+
             entity.HasOne(d => d.Dealership).WithMany(p => p.Cars)
                 .HasForeignKey(d => d.DealershipId)
                 .OnDelete(DeleteBehavior.ClientSetNull)

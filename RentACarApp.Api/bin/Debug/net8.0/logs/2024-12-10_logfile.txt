@@ -144,3 +144,26 @@
 2024-12-10 20:37:12.5226 INFO GetAllUsers: Retrieving all users
 2024-12-10 20:37:14.4276 INFO GetAllReservations started
 2024-12-10 20:37:14.4276 INFO GetAllReservations completed with 16 reservations
+2024-12-10 21:27:56.7467 INFO Retrieving all cars from the database.
+2024-12-10 21:28:18.1294 INFO Retrieving all cars from the database.
+2024-12-10 21:29:58.2295 INFO Retrieving all cars from the database.
+2024-12-10 21:30:11.2215 INFO Retrieving all cars from the database.
+2024-12-10 21:30:57.8362 INFO Retrieving all cars from the database.
+2024-12-10 21:31:25.3869 INFO Starting the process to create a new car.
+2024-12-10 21:31:25.8097 INFO Creating a new car in the database...
+2024-12-10 21:31:26.0666 INFO Saving changes to the database...
+2024-12-10 21:31:26.3810 INFO Car created successfully.
+2024-12-10 21:31:26.5945 INFO Retrieving all cars from the database.
+2024-12-10 21:33:30.5869 INFO GetAllUsers: Retrieving all users
+2024-12-10 21:33:33.4069 INFO GetAllReservations started
+2024-12-10 21:33:33.6256 INFO GetAllReservations completed with 16 reservations
+2024-12-10 21:33:45.4819 INFO GetAllReservations started
+2024-12-10 21:33:45.5140 INFO GetAllReservations completed with 16 reservations
+2024-12-10 21:33:47.9339 INFO Retrieving all cars from the database.
+2024-12-10 21:33:51.3295 INFO GetAllUsers: Retrieving all users
+2024-12-10 21:33:53.2755 INFO GetAllReservations started
+2024-12-10 21:33:53.2919 INFO GetAllReservations completed with 16 reservations
+2024-12-10 21:34:36.5530 INFO GetAllUsers: Retrieving all users
+2024-12-10 21:34:46.5098 INFO Retrieving all cars from the database.
+2024-12-10 21:35:16.9590 INFO CreateOneReservation started for UserId: 54648648324, CarId: 0HGBH41JXMN109195
+2024-12-10 21:35:17.3362 INFO Reservation created successfully for UserId: 54648648324, CarId: 0HGBH41JXMN109195

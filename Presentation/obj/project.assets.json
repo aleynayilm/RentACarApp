@@ -1098,6 +1098,25 @@
           }
         }
       },
+      "NLog.Web.AspNetCore/5.3.15": {
+        "type": "package",
+        "dependencies": {
+          "NLog.Extensions.Logging": "5.3.15"
+        },
+        "compile": {
+          "lib/net8.0/NLog.Web.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/NLog.Web.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "runtime.native.System/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -2101,7 +2120,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Proxies": "8.0.10"
+          "Microsoft.EntityFrameworkCore.Proxies": "8.0.10",
+          "NLog": "5.3.4",
+          "NLog.Web.AspNetCore": "5.3.15"
         },
         "compile": {
           "bin/placeholder/Entities.dll": {}
@@ -2117,7 +2138,9 @@
           "Entities": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.10",
           "Microsoft.EntityFrameworkCore.Proxies": "8.0.10",
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.10"
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.10",
+          "NLog": "5.3.4",
+          "NLog.Web.AspNetCore": "5.3.15"
         },
         "compile": {
           "bin/placeholder/Repositories.dll": {}
@@ -2135,7 +2158,9 @@
           "Entities": "1.0.0",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.EntityFrameworkCore.Proxies": "8.0.10",
+          "NLog": "5.3.4",
           "NLog.Extensions.Logging": "5.3.15",
+          "NLog.Web.AspNetCore": "5.3.15",
           "Repositories": "1.0.0"
         },
         "compile": {
@@ -3503,6 +3528,31 @@
         "lib/netstandard2.1/NLog.Extensions.Logging.xml",
         "nlog.extensions.logging.5.3.15.nupkg.sha512",
         "nlog.extensions.logging.nuspec"
+      ]
+    },
+    "NLog.Web.AspNetCore/5.3.15": {
+      "sha512": "Am5ZJ1htYf6K3QJ7stIbKK3CTGw1BOyGtucWxHoDScM/U1w6nE/zmYfZTfj7jRIKuZwbwpBqtRGZJsUcMGUvfA==",
+      "type": "package",
+      "path": "nlog.web.aspnetcore/5.3.15",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "N.png",
+        "README.md",
+        "lib/net461/NLog.Web.AspNetCore.dll",
+        "lib/net461/NLog.Web.AspNetCore.xml",
+        "lib/net5.0/NLog.Web.AspNetCore.dll",
+        "lib/net5.0/NLog.Web.AspNetCore.xml",
+        "lib/net6.0/NLog.Web.AspNetCore.dll",
+        "lib/net6.0/NLog.Web.AspNetCore.xml",
+        "lib/net8.0/NLog.Web.AspNetCore.dll",
+        "lib/net8.0/NLog.Web.AspNetCore.xml",
+        "lib/netcoreapp3.1/NLog.Web.AspNetCore.dll",
+        "lib/netcoreapp3.1/NLog.Web.AspNetCore.xml",
+        "lib/netstandard2.0/NLog.Web.AspNetCore.dll",
+        "lib/netstandard2.0/NLog.Web.AspNetCore.xml",
+        "nlog.web.aspnetcore.5.3.15.nupkg.sha512",
+        "nlog.web.aspnetcore.nuspec"
       ]
     },
     "runtime.native.System/4.0.0": {
@@ -6383,6 +6433,8 @@
     "net8.0": [
       "Microsoft.AspNetCore.Mvc.Core >= 2.2.5",
       "Microsoft.EntityFrameworkCore.Proxies >= 8.0.10",
+      "NLog >= 5.3.4",
+      "NLog.Web.AspNetCore >= 5.3.15",
       "Services >= 1.0.0"
     ]
   },
@@ -6442,6 +6494,14 @@
           "Microsoft.EntityFrameworkCore.Proxies": {
             "target": "Package",
             "version": "[8.0.10, )"
+          },
+          "NLog": {
+            "target": "Package",
+            "version": "[5.3.4, )"
+          },
+          "NLog.Web.AspNetCore": {
+            "target": "Package",
+            "version": "[5.3.15, )"
           }
         },
         "imports": [

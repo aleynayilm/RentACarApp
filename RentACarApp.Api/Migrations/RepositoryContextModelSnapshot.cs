@@ -554,9 +554,9 @@ namespace RentACarApp.Api.Migrations
 
                     b.Property<string>("Password")
                         .IsRequired()
-                        .HasMaxLength(8)
+                        .HasMaxLength(255)
                         .IsUnicode(false)
-                        .HasColumnType("char(8)")
+                        .HasColumnType("char(255)")
                         .HasColumnName("password")
                         .IsFixedLength();
 

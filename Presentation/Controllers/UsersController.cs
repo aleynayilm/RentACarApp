@@ -2,6 +2,7 @@
 using Entities.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using Services.Contracts;
 using System;
 using System.Collections.Generic;
@@ -18,9 +19,11 @@ namespace Presentation.Controllers
     public class UsersController : ControllerBase
     {
         private readonly IServiceManager _manager;
-        public UsersController(IServiceManager manager)
+        private readonly ILogger<UsersController> _logger;
+        public UsersController(IServiceManager manager, ILogger<UsersController> logger)
         {
             _manager = manager;
+            _logger = logger;
         }
         [HttpGet]
         public IActionResult GetAllUsers() {
@@ -96,5 +99,8 @@ namespace Presentation.Controllers
                 throw new Exception(ex.Message);
             }
         }
+
+        
+
     }
 }

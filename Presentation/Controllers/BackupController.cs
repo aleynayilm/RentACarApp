@@ -21,7 +21,7 @@ namespace Presentation.Controllers
                 using (var connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
-                    var command = new SqlCommand("BACKUP DATABASE [DatabaseName] TO DISK = 'C:\\Backup\\database_backup.bak'", connection);
+                    var command = new SqlCommand("BACKUP DATABASE CarRentalDB TO DISK = 'C:\\Backup\\database_backup.bak'", connection);
                     command.ExecuteNonQuery();
                     return Ok("Database backup completed successfully.");
                 }
@@ -41,7 +41,7 @@ namespace Presentation.Controllers
                 using (var connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
-                    var command = new SqlCommand("RESTORE DATABASE [DatabaseName] FROM DISK = 'C:\\Backup\\database_backup.bak'", connection);
+                    var command = new SqlCommand("RESTORE DATABASE CarRentalDB FROM DISK = 'C:\\Backup\\database_backup.bak'", connection);
                     command.ExecuteNonQuery();
                     return Ok("Database restored successfully.");
                 }
